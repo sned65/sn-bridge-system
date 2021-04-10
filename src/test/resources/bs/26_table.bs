@@ -1,0 +1,35 @@
+#Tables without header
+
+To add a table, use three or more hyphens (---) to create each column's header, and use pipes (|) to separate each column.
+You can optionally add pipes on either end of the table.
+
+Пример:
+
+---|---
+1\c, 1\d | 12-21, 3+, отрицает 5-ку в мажоре, при минорах 3-3 – всегда 1♣, при минорах 4-4 – на усмотрение.  
+1♥, 1♠ | 11-21, 5+
+**2♥, 2♠** | **Bold: 8-10 HCP, 6-ка**
+
+You can align text in the columns to the left, right, or center by adding a colon (:)
+to the left, right, or on both side of the hyphens within the header row.
+
+|---:|:---:|
+1\c, 1\d | 12-21, 3+, отрицает 5-ку в мажоре, при минорах 3-3 – всегда 1♣, при минорах 4-4 – на усмотрение.  
+1♥, 1♠ | 11-21, 5+
+**2♥, 2♠** | **Bold Bold**: 8-10 HCP, 6-ка
+
+# Tables with headers
+
+| header 1 | header 2 | header 3 |
+| ---      |  ------  |----------|
+| cell 1   | cell 2   | cell 3   |
+| cell 4 | cell 5 is longer | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
+| cell 7   |          | cell 9   |
+
+You can choose the alignment of text in columns by adding colons (:) to the sides of the “dash” lines in the second row.
+This affects every cell in the column: 
+
+| Left Aligned | Centered | Right Aligned | Left Aligned | Centered | Right Aligned |
+| :---         | :---:    | ---:          | :----------- | :------: | ------------: |
+| Cell 1       | Cell 2   | Cell 3        | Cell 4       | Cell 5   | Cell 6        |
+| Cell 7       | Cell 8   | Cell 9        | Cell 10      | Cell 11  | Cell 12       |

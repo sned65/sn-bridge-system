@@ -1,0 +1,25 @@
+#Список заявок
+
+Пример:
+\bids {
+1\c, 1\d | 12-21, 3+, отрицает 5-ку в мажоре, при минорах 3-3 – всегда 1♣, при минорах 4-4 – на усмотрение.  
+         | При открытии 1♦ возможен расклад 5♣-4♦.
+1♥, 1♠ | 11-21, 5+
+1NT    | 15-17, BAL
+2♣     | 22+, AF
+2♦     | Mini Multi: a weak two bid in backslashed \h or \s
+**2♥, 2♠** | **Bold Bold**: 10-14 HCP, =4M-5m
+2NT    | 20-21, BAL
+       |
+       | - 3\c - Puppet Stayman
+       | - 3\d/\h - transfers
+       | - 3\s - minor-suit Stayman
+       | - 4\c - Gerber
+3+ suit| weak
+3NT    | 16-21, *курсив курсив*
+4NT    | Blackwood or  
+       | RKCB (two lines)
+}
+
+
+## Hand

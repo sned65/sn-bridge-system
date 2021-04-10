@@ -1,0 +1,2666 @@
+
+<https://github.com/sned65/sn-bridge>
+4NT = Blackwood
+
+
+# Открытия 1♣, 1♦
+
+## Ответы с непасовавшей рукой
+
+- Предпочтение мажоров (Walsh). Это же верно для 1♦ - 2♣.
+- Jump-shift - strong.
+- 3M - GI, от 7-ки, несколько слабее, чем непосредственные 4♥/♠.
+- 3NT - 18-19, BAL, нет мажоров.
+- 1♦ - 3♣ = полуравномер, 9-11 HCP, нет мажоров, от 4-ки (вероятно, 5-ка) в бубне.
+
+
+## 1\c - 1\d ##########
+
+1\d – мажор возможен либо при 6♦-4М GI, либо при GF.
+
+\bdn{
+1♣ (P) 1♦ (P)
+?
+}
+
+
+\bids{
+2♦   | 15+, 4-ка ♦
+2NT  | 16+, 6+ ♣
+3♦   | 12-14, 4-ка ♦
+3♥, 3♠ | 18+, splinter
+}
+
+*Note 1*: инвертированные заявки 2♦ и 3♦! При любой интервенции инвертированная ♦ is off.
+
+*Note 2*: 2NT - opener promises some kind of stoppers in both majors.
+  If not, he has other bids to choose among.
+
+### 1♣ - 1♦ - 1NT
+
+\bdn {
+1♣ (P) 1♦ (P)
+1NT (P) ?
+}
+
+\bids{
+2♣ | ART, реле в 2♦. Signoff в ♦ или какой-то GI
+2♦ | ART, GF
+2♥, 2♠ | 6♦ - 4M, лёгкий инвит
+2NT | реле в 3♣ (signoff)
+3♣/♦/♥/♠ | NAT, SI
+3NT | контракт
+}
+
+\bdn{
+1♣ (P) 1♦ (P)
+1NT (P) 2♣ (P)
+2♦ (P) ?
+}
+
+\bids {
+Pass |
+2♥, 2♠ | 10-12, 6♦ - 4M,  сильный инвит
+Other | NAT, GI
+}
+*Внимание*: сразу 2♥, 2♠ – лёгкий инвит; после 2♣ –сильный инвит.
+*Принцип: медленная торговля сильнее быстрой*.
+При слабых 6♦ - 4M заявляем сначала мажор, затем (а) после 1NT: 2♣ с идеей спасовать на 2♦; (б) после 1♣ – 1♥ – 1♠: 1NT или NF 3♦.
+
+###  1m – 1M – 2M
+
+\bdn {
+1♣ (P) 1♥ (P)
+2♥ (P) ?
+}
+
+\bids {
+Pass | If responder has a weak hand, he has to pass the raise. Bidding anything shows at least a game try.
+2♠ | NAT, GI+
+2NT | ART, вопрос, GI+
+3♣ | GI, 3+♣, =4♥
+3♦ | GI, 5+♦, =4♥
+3♥ | GI
+3NT | предложение контракта
+4♥ | контракт
+}
+*Note*: 2NT is not used on hands that might wish to stop in a minor suit partial, but might wish to stop in 3 of the major.
+
+Аналогично после открытия 1♦ и/или ответа 1♠.
+
+\bdn {
+1m (P) 1M (P)
+2M (P) 2NT (P)
+?
+}
+
+\bids {
+3♣ | минимум, 3-ка M
+3♦ | максимум, 3-ка M, есть краткость
+3M | минимум, 4-ка
+3oM| максимум, 4-ка M, нет краткостей
+3NT| максимум, 3-ка M, нет краткостей
+4om| SPL
+4oM or 4m | SPL в мажоре
+}
+
+\bdn {
+1m (P) 1M  (P)
+2M (P) 2NT (P)
+3♣ (P) 3♦  (P)
+?
+}
+
+3♦ = 2nd relay, asks for shortness
+
+\bids {
+3♥ | Краткость в младшей из непоказанных мастей.
+3♠ | Краткость в старшей из непоказанных мастей.
+3NT | нет краткостей
+}
+
+\bdn {
+1m (P) 1M (P)
+2M (P) 2NT (P)
+3♦ (P) ?
+}
+
+\bids {
+3♥ | 2nd relay, asks for shortness
+**3♠** | **sets the major as trump (even when our fit in hearts)**
+}
+
+\bdn {
+1m (P) 1M (P)
+2M (P) 2NT (P)
+3♦ (P) 3♥  (P)
+?
+}
+
+3♥ = 2nd relay, asks for shortness
+
+\bids {
+3♠ | lower shortness
+3NT | higher shortness
+}
+
+###  1m – 1M – 1NT (two-way checkback)
+
+\bdn {
+1♣ (P) 1♥ (P)
+1NT (P) ?
+}
+
+\bids {
+Pass |
+2♣ | ART, реле в 2♦.
+2♦ | ART, GF
+2♥ | signoff
+2NT| реле в 3♣ (signoff)
+3X | NAT, SI
+3NT| контракт
+4♣ | Gerber
+4♥ | контракт
+}
+
+* **Все** инвитные руки торгуются через 2♣.
+* Почти все GF руки торгуются через 2♦.
+* Если ОТВ пасовал на первом круге, то заявка 2♦ натуральна.
+* **Конкуренция**: Если шаблон 1m – (X) – 1M – (X) – 1NT выполняется, то system on.
+* **Конкуренция**: Если ОТВ показал масть(-и) контрой/реконтрой, то system off.
+
+\bdn {
+1♣ (P) 1♥ (P)
+1NT (P) 2♣ (P)
+2♦ (P) ?
+}
+
+\bids {
+Pass   |
+2♥     | 10-11, =5-ка ♥
+2NT    | NAT, GI
+3♣, 3♦ | NAT, GI
+3♥     | GI, 6-ка ♥
+3NT    | NF, 5♥-(3-3-2)
+4♥     | SI, NF, 6-ка ♥
+}
+Аналогично после 1♦ и/или ответа 1♠.
+
+
+###  1m – 1M – 2NT   \ref{1m1M2NT}
+
+Opener's jump to 2N shows one of two different hand types:
+- 16+, fit
+- 16+, 6m and 0-2 in responder's major
+With the latter type, opener promises some kind of stoppers in both the unbid suits.
+If not, he has other bids to choose among.
+
+Example:
+\bdn {
+1♦ 1♠
+2N ?
+}
+
+\bids {
+3♣ | (Other minor) GF, relay
+3♦ | NF, weak (all other rebids are GF)
+3♥ | GF, NAT, 5-5
+3♠ | GF, 6+♠
+3N | to play opposite the long minor
+4♦ | ST
+}
+
+\bdn {
+1♦ 1♠
+2N 3♣
+?
+}
+
+\bids {
+3♠ | 16-17 with support
+3♦/♥ | 6-card minor, interest of slam
+3N | 6-card minor, normal bid
+4X | 18-19 with support, new suit is splinter
+}
+
+With the one-suited hand opener can bid anything at the 3-level, except for the bid major.
+3N is NF while suit bids are forcing.
+
+As a general rule, with support opener bids 3M with 16-17 HCP and bids at the 4-level with 18-19 HCP.
+A bid in a new suit then shows a singleton.
+
+###  1m – 1M - reverse
+
+Все ответы форсируют – два ответа F1, остальные GF.
+- 2M – < 10 HCP, F1, от 5-ки
+- *Blackout*: the cheaper of fourth suit or 2NT shows < 10 HCP, =4.
+- остальное – натурально, >= 10 HCP, GF. Примеры: 1♣ - 1♠ - 2♦ - 3♦; 1♦ - 1♠ - 2♥ - 3♥.
+
+__But see <http://www.qldbridge.com.au/bulletin/qba/QBASep09.pdf>__
+
+
+##  1m - 2m (Inverted Minor Raises)
+
+С непасовавшей рукой – 9+, от 4-ки козырей, нет 4-ок в мажорах.
+
+Минимальная рука ОТВ (9-11 очков) всегда неравномерна.
+При равномерной или полуравномерной руке надо использовать другие заявки: 1♣/♦-1/2NT; 1♣-1♦; 1♦-3♣.
+
+После инвертированного подъёма торговля может остановиться ниже 3NT только после прямой заявки 3m любым партнером:
+1m – 2m – 3m, 1m – 2m – 2X – 3m, 1m – 2m – 2NT – 3m, 1♦ – 2♦ – 3♣ – 3♦.
+
+После инвертированного подъёма заявка 4m никогда не является инвитом – это либо невозможность поставить 3NT из-за отсутствия задержки, либо KCB. Например,
+1♣ - 2♣ - 3♣ - 4♣ —  KCB.
+
+При любой интервенции инвертированные миноры is off.
+
+\bdn {
+1♣ (P) 2♣ (P)
+?
+}
+
+
+\bids {
+2♦, 2♥, 2♠ | от хорошей 3-ки, не усиливает.
+            |  Либо неравномер, либо нежелание заявлять NT.
+			| Далее 2NT – GF.
+2NT | F, не усиливает (обычно 12-14 в равномере, но может быть выжидательной)
+3♣ | 12-14, NF, неравномерная рука
+3♦, 3♥, 3♠ | 15+, сплинтер
+3NT | **18-19 HCP, 4333 или 4432, триплет в масти открытия**
+4♣ | KCB
+}
+Аналогично после 1♦ – 2♦.
+
+
+###  1m - 2m - 2NT
+
+\bdn {
+1♣ (P) 2♣ (P)
+2NT (P) ?
+}
+
+\bids {
+3♣ | 9-11, NF, неравномерная рука
+3♦ | либо синглет ♦, либо инвит к шлему на **18-19** HCP в равномере
+   |(ОТК автоматически заявляет следующий шаг, ОТВ 3NT с равномерным вариантом или первый доступный шаг с синглетом).
+   |Пример: 1♣-2♣ – 2NT-3♦ – 3♥-3♠ = бубновый синглет; 1♦-2♦ – 2NT-3♣ – 3♦-3♥ = трефовый синглет.
+3♥, 3♠ | синглет
+3NT | 12-17, NAT
+4♣ | KCB
+}
+
+
+###  Конкуренция
+
+Inverted Minors are OFF by a passed hand,
+and OFF in competition (meaning if second hand overcalls or doubles).
+
+**After 1m-P-2m**
+
+3m is always the weakest action, and pass shows some life with nothing particular to say.
+2NT is forcing just like it would be in an uncontested auction, but because pass is a possibility,
+you have to have a reason for bidding 2NT. A new suit shows values there and a reasonable hand, as before.
+
+After any Competition over an Inverted Raise, we play 4m+1 as Redwood.
+
+
+##  1♦ - 2♣
+
+10+, от  4-ки. При 10-11 HCP нет 4-ки в мажоре.
+\bdn {
+1♦ (P) 2♣ (P)
+?
+}
+
+
+\bids {
+2♦ | ART, 12-13, NF. Соглашение в силе при интервенции от LHO: 1♦-(1♥)-2♣-(P)
+3♣ | 12-13, фит, NF
+Other | NAT, 14+, GF
+}
+
+\bdn {
+1♦ (P) 2♣ (P)
+2♦ (P) ?
+}
+
+\bids {
+Pass |
+2NT | to play
+3♣ | 10-11, NF
+Other | NAT, GF
+}
+
+##  Jump shifts: 1♣ - 2♦, 1m - 2♥/♠
+
+Более чем обычная GF сила (эквивалентно 15+ HCP), хорошая масть, и один из трёх типов рук: (1) равномерная, (2) одномастная, (3) с фитом.
+Далее: 2NT – waiting bid.
+
+After a jump shift, the responder never has another suit that he wishes to introduce.
+Consequently, there is no point in opener exploring for a new suit. Thus, a new-suit bid by opener
+shows strength in the suit and may be only a three-card suit.
+
+Тип (1) показывается заявкой NT, тип (2) – повтором своей масти, тип (3) – заявкой МО (нет синглетов) или новой масти (синглет, с прыжком – ренонс).
+
+
+##  Ответы с пасовавшей рукой
+Натурально. Инвертированных миноров нет. Jump-shift – слабый (2♦, 3♣) или очень слабый (2♥, 2♠) как следствие отсутствия блокирующего открытия 2♦.
+
+
+##  4-я масть
+
+4SF – GF, если UPH. **Исключения**:
+- 1♣-1♦-1♥-1♠ = NAT
+- 1m-1M-reverse-4SF(ниже 2NT) = плохая рука
+
+By a passed hand, the fourth suit – natural and NF.
+
+
+##  Конкуренция
+
+###  После призывной контры
+
+\bdn {
+1♣/♦ (D) ?
+}
+
+\bids {
+NSJ | NAT, блок
+R | 10+, оба мажора
+2♣/♦ | 6-9, фит, нет мажоров
+3♣/♦ | блок
+Other | unchanged
+}
+1♣ – (D) – R – (P) – 1♦ = ART ≈ 4SF, GF
+1♦ – (D) – R – (P) – 2♣ = ART ≈ 4SF, GF
+
+###  После мастевой интервенции
+
+\bids {
+1♣ – (1♦) – D | оба мажора, 6+ HCP
+1m – (1♥) – D | 6-9 HCP, нет пики, нет задержки
+1m – (1♠) – D | аналог ответа 1♥ без интервенции
+остальные контры до бесконечности | негативные
+1NT/2NT (с прыжком или без) | натурально, 6-9 HCP/GI
+простой подъём | фит от 4-ки, 6-9 HCP
+подъём с прыжком | блок
+jump-shift | блок
+новая масть | форсирует
+**cue-bid** | **GI+, нечего сказать**
+**jump cue-bid** | **трансфер в 3NT**, a balanced 3NT hand (13-15) and a stopper(s) in the suit overcalled.
+}
+
+\bdn {
+1m (1M) P (2M)
+P  (P) 2NT
+}
+
+2NT показывает 5-ку в другом миноре и tolerance к первому минору (4-ка для трефы, 3-4-ка для бубны),
+предлагает выбрать минор.
+*Общий принцип*: если 2БК не конвенционны и очевидно не могут быть натуральными,
+то это предложение выбрать из двух мастей, а сами масти и примерная карта
+определяются с учетом предшествующей торговли.
+
+####  Support Double (Контра-трёшка) \ref{support_double}
+
+В торговле типа 1m – (P) – 1M – (1/2X) (противник вступил в позиции sandwich ниже 2M)
+
+\bdn {
+1♣ (P/D/1♦) 1♥ (1♠/1NT*/2♣/2♦)
+D
+}
+
+
+\bdn {
+1♥ (P) 1♠ (1NT*/2♣/2♦)
+D
+}
+
+контра дается ровно с триплетом в масти партнера.
+*Внимание*: 1NT — ненатурально. Если противник заявил 1NT натурально, то контра – усиление с идеей наказать.
+
+В торговле
+\bdn {
+1♣ (P/D) 1♦ (1♥)
+D
+}
+
+контра показывает 3-ку в бубне.
+
+В торговле
+\bdn {
+1♣ (P/D) 1♦ (1♠)
+D
+}
+
+контра показывает 4-ку черв.
+
+Реконтра-трешка не играется, реконтра означает усиление с идеей наказать.
+
+###  1m - (1NT)
+
+\bdn {
+1m (1NT) ?
+}
+
+If we are going to play, it may be important that the strong opponent will have to make the opening lead.
+Because of that:
+\bids {
+D | 9/10+ HCP
+2♣ | both majors (45/54/55)
+2♦/♥ | 5+♥/♠
+2♠  | 6+ in unbid minor, constructive hand
+2N | INV, support
+3m | PRE
+}
+
+###  После двухмастной интервенции
+
+**Michaels** (два мажора)
+
+\bdn {
+1♣ (2♣) ?
+}
+
+\bids {
+D  | наказательная. Сила, по меньшей мере, в одной масти. Нет фита. Все дальнейшие контры наказывают.
+2♦ | NF
+2♥ | GI+, ♦: **the cheapest cue-bid (actual or virtual) — GI+ и оставшаяся масть**
+2♠ | GI+, fit: **the second-cheapest cue-bid (actual or virtual) — GI+ и фит**
+2NT| задержки, но контрить не хочется, GI
+3♣ | NF
+3NT| контракт
+Пас, затем контра | призывная.
+Пас, затем мажор врага | натурально, играть в масти противников.
+}
+
+Аналогично после 1♦.
+
+Аналогично после других двухмастных вступлений с известными мастями.
+
+
+#  Открытия 1♥, 1♠
+
+##  Ответы с непасовавшей рукой
+
+\bdn {
+1♥ (P) ?
+}
+
+\bids {
+1♠  | 6+, от 4-ки ♠
+1NT | 6-9, нет фита, нет 4-ки ♠
+2♣/♦  | GI+, NAT, 3+
+2♥  | 6-9, фит (обычно =3)
+2♠  | 15+, от 5-ки
+2NT | Jacoby: GF с 4-карточным фитом, no side shortness.
+3♣/♦/♥ | Bergen: фит 4+,  mixed raise (7-10)/limit raise (11-12)/preemptive raise (4-6)
+3♠  | 10-12 с 4-карточным фитом и неизвестным синглетом
+3N/4♣/4♦ | 13+, сплинтеры в ♠/♣/♦
+4♥  | ≤ 10, хороший фит, резкий расклад
+}
+
+\bdn {
+1♠ (P) ?
+}
+
+\bids {
+2♥ | 10+, от 5-ки. Далее NAT: 2♠ - 11-14, 3♥ - 11-14, от 3-ки; other - 15+, GF, NAT
+3♥ | Не используется
+3NT| 10-12 с 4-карточным фитом и неизвестным синглетом
+4♣/♦/♥ | 13+, сплинтеры в ♣/♦/♥
+Other | Аналогично открытию 1♥
+}
+
+
+##  1M – 2M
+
+\bdn {
+1♥/♠ (P) 2♥/♠ (P)
+?
+}
+
+\bids {
+2♠/2NT | GI (или SI) и просьба показать масть, в которой пропадёт наибольшее количество очков против синглета.
+       |  Если таких мастей две и выбрать трудно, то показывается младшая.
+		| Ответ даётся только, если ОТВ не уверен, надо ли принимать инвит.
+	|Иначе он сразу заявляет 3M, или 4M, или 3NT (пас или коррекция).
+3♥/♠ | либо инвит на слабом козыре, либо блок на сильном.
+3X | SI. Обычно, 5-5. Иногда 5-4, когда в остальных мастях интересуют только тузы.
+}
+
+##  Bergen raises
+
+3♣/♦/M - фит 4+,  mixed raise (7-10)/limit raise (11-12)/preemptive raise (4-6).
+Сила учитывает расклад (+1 – за дублет, +3 – за синглет, +5 – за ренонс).
+
+\bdn {
+1♥/♠ (P) 3♣/♦ (P)
+?
+}
+
+\bids {
+3♦ | инвит (3M – не принят, 3NT/4M – принят)
+3oM | SI на двухмастке (после реле 2-я масть показывается н/э)
+3N/4♣/4♦ | н/э краткость
+}
+
+**Конкуренция** После мастевой интервенции Bergen is off, после контры on.
+
+##  Jacoby 2NT
+
+GF с 4-карточным фитом, no side shortness.
+
+\bdn {
+1♥/♠ (P) 2NT (P)
+?
+}
+
+Most of the hands where the bidding starts 1M-2N will lead
+to a game, and only a few to a slam. Giving away extra info
+on the game hands can only gain the opponents.
+
+\bids {
+3♣ | 11-14 (min). *У Nilsland сложнее: +maximum&ренонс*. Далее: 3♦ - SI, relay: 1 step = no shortness, 2-4 steps - singleton up-the-line (♣,♦,oM)
+3♦ | 15+. Далее: 3♥ asks for singleton - 1 step = no shortness, 2-4 steps = singleton up-the-line (♣,♦,oM)
+3♥ | 15+, 4♣
+3♠ | 15+, 4♦
+3N | 15+, 4oM
+4X | 11-13, with a void
+}
+
+
+###  Конкуренция
+
+Интервенция ниже 3M:
+\bdn {
+1M (P) 2NT (3m)
+?
+}
+
+
+\bids {
+P | минимум, нет контроля в масти интервенции
+D | минимум, A или K
+4m | минимум, синглет
+4M | усиление, нет контроля
+3NT| усиление, A или K
+**3M** | **усиление, синглет**
+}
+
+##  Gazilli: 1♥ - 1♠ - 2♣, 1♥ - 1NT - 2♣, 1♠ - 1NT - 2♣
+
+Рука ОТК:
+- 14+ with 6+M
+- 15-19 with 5332
+- после 1♥ - 1♠: (14)15+ with =3 spades, but *not* 14-15 with =3541 (2♦)
+- 16+ that don't fit into other rebids
+
+The 14 HCP hand fits into both minimum (11-14) and the intermediate (14-16) range.
+In the same way, 16 HCP could be bid as 11-16 or 16+.
+
+After 1♥ - 1♠, we never bid Gazilli with 4-card support in spades (2♠, 3♠, 2N, 4m).
+
+Если ОТК не делает заявку 2♣, то значения большинства других заявок похожи на значения соответствующих заявок в лимитированных системах.
+Исключения:
+\bids {
+2M | 11-16, 5M-4+♣
+2N | 14+, 6M-4m; или (после 1♠ - 1N) 14+, 6♠-4♥; или (после 1♥ - 1♠) 16+ with support (5♥-4♠)
+}
+
+------
+Почти все ответы на 2♣, кроме 2♦ – натуральны и NF (около 6 очков).
+
+\bdn {
+1♥ (P) 1♠ (P)
+2♣ (P) ?
+}
+
+\bids {
+2♦ | ART, 8+
+2♥ | 5-7, обычно дублет ♥. Возможен синглет при =4144.
+2♠ | 5-7, от 5-ки. Нет дублета черв.
+2NT | 5-7, миноры (4045, 4054)
+3♣, 3♦ | 5-7, от 6-ки
+3♠ | GF, sets spades (*в настоящий момент невозможно из-за 1♥ - 2♠*)
+}
+
+\bdn {
+1♥ (P) 1NT (P)
+2♣ (P) ?
+}
+
+\bids {
+2♦ | ART, 8+
+2♥ | 5-7, дублет ♥
+2♠ | 5-7, 5+♣/4♦ => ♥-краткость, ≈ 3-1-4-5. *Nilsland: другая трактовка.*
+2NT| 5-7, 5+♦/4+♣ => ♥-краткость, ≈ 3-1-5-4
+3♣, 3♦ | 5-7, от 6-ки
+}
+
+\bdn {
+1♠ (P) 1NT (P)
+2♣ (P) ?
+}
+
+\bids {
+2♦ | ART, 8+
+2♥ | 5-7, от 5-ки ♥. ОТК с минимумом может скорректировать в 2♠, что не усиливает
+   |  и является желанием улучшить контракт (подразумевает отсутствие дублета черв).
+2♠ | 5-7, обычно дублет ♠, но =1444, =14(53)
+2NT | 5-7, оба минора от 5-4
+3♣, 3♦ | 5-7, от 6-ки
+3♥ | 5-7, от 6-ки ♥
+}
+
+------
+
+\bdn {
+1♥ (P) 1♠ (P)
+2♣ (P) 2♦ (P)
+?
+}
+
+All rebids except 2♥ are forcing. 2♠ is F1 (to 3♥/♠), while others are GF.
+
+With 3 spades, 2♠ is opener’s normal bid. Other bids indicate 0-2 spades
+but with GF and 5530 or 6+ hearts opener can also choose to bid 3m or 3M.
+
+\bids {
+2♥ | NF, 14-16 with 6♥ or 15-16 with =2533. Далее 2N - forcing-invitational, 3♥ - GI, others - GF.
+2♠ | F1, 14+ HCP with 3 spades
+2N | GF, BAL or semi-balanced, in both cases w/o 3 spades
+3♣/♦ | GF, 5-5 (or 5-4 with very strong suits), may have 3 spades with 5530
+3♥ | GF, 6+ hearts, may have 3 spades with very good hearts
+3♠ | GF, 6♥-3♠. 4♣/♦ now sets ♥/♠ (Lissabon)
+3N | 17-19 with =2533 and less slam interest
+4♣/♦ | shortness, sets hearts
+}
+
+\bdn {
+1♥ (P) 1NT (P)
+2♣ (P) 2♦  (P)
+?
+}
+
+All rebids except 2♥ are GF.
+
+\bids {
+2♥ | NF, 14-16 with 6♥ or 15-16 with 5332. Далее 2♠ - 10-12, миноры 5-5; 2N - forcing-invitational, 3♥ - GI, others - GF.
+2♠ | GF, синглет в пике (с целью избежать плохих 3NT или найти минорный шлем). *Nilsland: ART, GF with a semi-balanced hand.*
+Other | NAT, GF
+}
+
+\bdn {
+1♠ (P) 1NT (P)
+2♣ (P) 2♦  (P)
+?
+}
+
+All rebids except 2♠ are forcing. 2♥ is F1, while others are GF.
+
+\bids {
+2♥ | F1 (14+) with 3♥, or GF (16+) with 4♥. Далее 2♠ - NF with 8-9 HCP and (1)2 spades, may have 4 hearts, others - normal.
+2♠ | NF (14-16) with 6 spades
+2N | GF, BAL or semi-balanced, seldom 3 hearts
+3N | 18-19, =5233
+4♣/♦ | shortness, sets spades
+others | GF, NAT
+}
+
+------
+
+**Конкуренция**
+
+При *любой* интервенции Gazzilli is off.
+
+**Контра на 2♣**: реконтра – 8+, 2♦ – ♦ и NF, пас – <8 и нет желания торговать, остальное без изменений.
+
+##  1♥ - 1♠ - 2♠
+
+\bdn {
+1♥ (P) 1♠ (P)
+2♠ (P) ?
+}
+
+\bids {
+2NT | ART, GI+, вопрос о раскладе
+3♥ | GF, фит, выбор гейма
+3♠ | Не существует
+}
+
+\bdn {
+1♥ (P) 1♠  (P)
+2♠ (P) 2NT (P)
+?
+}
+
+
+Характеристика ответов: на 3-м уровне показывается 4-ка в миноре и триплет в пике,
+на 4-м – синглет в миноре и 4-ка в пике, сила уточняется только при показе равномера:
+\bids {
+3♣ | 3-5-1-4, далее 3♠ – GI, остальные заявки – GF
+3♦ | 3-5-4-1, далее 3♠ – GI, остальные заявки – GF
+3♥ | 3-5-(3-2), минимум
+3♠ | 4-5-2-2, минимум
+3NT| 3-5-(3-2), максимум
+4♣ | 4-5-3-1
+4♦ | 4-5-1-3
+4♠ | 4-5-2-2, максимум
+}
+
+
+##  1♥ - 1♠ - 1NT
+
+\bdn {
+1♥ (P) 1♠ (P)
+1NT (P) ?
+}
+
+\bids {
+2♣, 2♦ | ART, two-way checkback. Аналогично 1m-1M-1NT.
+2♥     | фит, NF, 8-10 хороших очков, пика – источник взяток (мин KQxxx).
+}
+
+## 1♥ - 1♠ - 2N, 1M - 1N - 2N
+
+\bdn {
+1♥ 1♠
+2N ?
+}
+
+A two-way bid: 14+ with 6♥-4m, or 4 spades and 16+.
+\bids {
+3♣ | relay with at least 6 HCP
+3♦ | GF, 5♠-5♦
+3♥ | very weak, about 6 HCP w/o fit
+3♠ | GF with 6+♠
+}
+
+\bdn {
+1♥ 1♠
+2N 3♣
+?
+}
+
+\bids {
+3♦ | 6♥-4♦, forcing to at least 3♥
+3♥ | 6♥-4♣, 14-16, NF
+3N | 6♥-4♣, 17-19, F1
+3♠ | 16-17, NF, 4♠
+4X | 18-19, 4♠ (cue-bid or splinter)
+}
+
+Аналогично после 1M - 1N - 2N, но без второго варианта (3♣ - relay).
+
+##  Jump Shift 1♥ - 2♠
+
+1♥ - 2♠ – более чем обычная GF сила (эквивалент 15+ HCP),
+хорошая масть (от 5-ки с минимум двумя из трёх старших фигур), и с одним из трёх типов рук:
+balanced, one-suited, support. Далее 2NT – waiting bid.
+
+\bdn {
+1♥ (P) 2♠ (P)
+2NT (P) ?
+}
+
+\bids {
+3♣, 3♦ | фит, синглет ♣/♦
+3♥ | фит, нет синглета: 5-3-(3-2), 5-4-2-2, 6-3-2-2
+3♠ | одномастный расклад
+3NT| 15-17, равномер, 6-2-(3-2)
+4NT| 18-19, равномер, 6-2-(3-2)
+}
+
+
+##  Ответы с пасовавшей рукой (Drury)
+
+\bdn {
+P (P) 1♥/♠ (P)
+?
+}
+
+
+\bids {
+2♣ | Drury: ART, 9-11, фит.
+Other | по смыслу: или без изменений или натурально. Bergen is off.
+}
+
+**Drury**: используется на 3-й или 4-й руке. При любой интервенции выключается.
+
+\bdn {
+P (P) 1♥/♠ (P)
+2♣ (P) ?
+}
+
+\bids {
+2♥/♠ | sign-off
+2♦   | GI
+4♥/♠ | Контракт. If opener wants to be in game after hearing the Drury bid, he should just jump to 4-of-the-major and not give away information.
+2NT  | Вопрос про «источник взяток» (минимум KJxxx)
+NS   | NAT, SI+
+NSJ  | Splinter, SI+
+}
+
+##  Конкуренция
+
+###  После призывной контры
+
+\bdn {
+1♥ (D) ?
+}
+
+\bids {
+2♠   | NAT, блок
+R    | 10+, нет фита, приблизительно трёхмастный расклад
+Other| No changes: Bergen, Jordan, mini-splinter, splinters are on
+}
+
+###  После мастевой интервенции
+
+Fit: Простой подъём - без изменений, со скачком - блок, cue - fit, GI; jump cue - SPL, 2N - fit, GF.
+
+\bids {
+1♥ (1♠) D   | 7+, at least 4-4 minors
+1♥ (2♣) D   | 7+, 4+ ♠ (при 5-ке 7-9 HCP)
+}
+
+Аналогично после 1♠ и/или интервенции 2♦.
+
+При других натуральных мастевых интервенциях: контра – негативная до ∞ и, начиная с 3-го уровня, GF.
+
+См. также [support_double][Контра-трёшка].
+
+###  После натурального 1NT
+
+\bdn {
+1♥ (1NT) ?
+}
+
+\bids {
+2/3/4♥ | as above
+NS     | NAT, NF
+NSJ    | NAT, weak
+D      | наказание
+2NT    | 10+, any 2-suiter (без ♥), AF
+}
+
+Аналогично после 1♠.
+
+###  После двухмастной интервенции
+
+**Michaels** (other major + minor)
+
+\bdn {
+1♥ (2♥) ?
+}
+
+\bids {
+3♥, 4♥ | weak, fit
+**2NT**    | **GF, fit**
+2♠     | GI, fit
+3♠, 4♣, 4♦ | 13+, splinter
+D          | наказательная. Аналогично торговле 1M – (D) – R.
+3♣, 3♦ | NAT, F
+3NT    | контракт
+Пас, затем контра | призывная.
+Пас, затем мажор врага | натурально, играть в масти противников.
+}
+Аналогично после 1♠.
+
+**Raptor 1NT** (other major + minor)
+
+- Fit: Простой подъём - без изменений; со скачком - блок; cue - fit, GI; jump cue, NS2J - SPL; 2N - fit, GF.
+- D - наказательная. Аналогично торговле 1M – (D) – R.
+
+**Unusual 2NT** (оба минора)
+
+\bdn {
+1♥ (2NT) ?
+}
+
+\bids {
+3♥, 4♥ | fit, weak
+3♠ | NAT, NF
+3♣ | GI+, 5+ ♠
+3♦ | GI+, fit
+3NT| to play
+4♣, 4♦ | 13+, splinter
+D | наказательная. Сила, по меньшей мере, в одном миноре. Нет фита. Все дальнейшие контры наказывают.
+Пас, затем контра | призывная.
+}
+
+Аналогично после 1♠.
+
+Аналогично после других двухмастных вступлений с известными мастями.
+
+# Открытие 1NT
+
+\bdn {
+1NT (P) ?
+}
+\bids {
+2♣ | Stayman, Garbage Stayman (0-7, с мажорами).
+2♦,2♥ | Jacoby transfers
+2♠ | Minor-suit Stayman
+2NT| GI
+3♣, 3♦ | NF
+3♥, 3♠ | SI в соответствующем миноре (♣/♦)
+3NT, 4♠| Sign-off
+4♣ | Gerber
+4♦,4♥ | Texas transfers
+4NT | SI
+}
+
+##  Stayman 1NT-2♣
+
+Почти всегда подразумевает GI+ и наличие ровно 4-ки в мажоре.
+Исключение: поиск минорного фита при SI+ после MSST (мажора может не быть).
+Ответы: 2♦ - нет 4-карточных мажоров; 2♥ - 4-ка ♥, возможна 4-ка ♠; 2♠ - 4-ка ♠, нет 4-ки ♥.
+
+
+\bdn {
+1NT (P) 2♣ (P)
+2♦  (P) ?
+}
+
+\bids {
+Pass | 0-7 HCP, 4+♦, краткость в ♣ и, по меньшей мере, 4-3 в мажорах: 4-4-4-1, 4-4-5-0, (4-3)-5-1, (4-3)-6-0.
+     |  При 0-3 HCP Garbage Stayman применяется независимо от наличия синглета ♣.
+2♥   | 7-9 HCP и 5-карточная масть (расклад 5♥-4♠), GI
+2♠   | 7-9 HCP и 5-карточная масть (расклад 5♠-4♥), GI
+2NT  | GI
+3♣, 3♦ | **MSST**
+3♥, 3♠ | **Smolen**: GF; 4-ка в заявленном мажоре и 5-ка в другом. Далее после 3N при 6-4 можно дать трансфер в длинный мажор.
+Any game | Sign-off
+4♣   | Gerber
+4NT  | SI
+}
+
+\bdn {
+1NT (P) 2♣ (P)
+2M  (P) ?
+}
+
+\bids {
+2♠ | 4-ка, SI+. После 2NT (нет фита в ♠): 3♣/♦ – MSST.
+2NT| GI
+3♣, 3♦ | MSST. Ответы: 1-й шаг = min, нет фита; 2-й = min, фит; 3-й = max, нет фита; 4-й = max, фит.
+3M | фит, инвит
+3oM | **неизвестный синглет**, фит, SI+. ОТК – реле, и ОТВ показывает синглет н/э.
+3NT| пас или коррекция
+4♣ | Gerber
+4♦ | фит, равномер, SI+ (от 16-17 HCP). Если инвит не принимается, то 4M; если принимается, то 4oM.
+4M | Sign-off
+4NT| SI
+5NT| Выбор шлемика: 6♠ или 6NT
+}
+
+### Конкуренция
+
+\bdn {
+1NT (P) 2♣ (D)
+?
+}
+
+\bids {
+R | 4+ strong ♣
+P | нет мажоров, задержка
+2♦| нет мажоров, нет задержки
+2♥, 2♠ | без изменений
+}
+
+Если ОТК даёт реконтру или пасует, ОТВ может спасовать, дать натуральную реконтру или сделать любую другую заявку = system on.
+При других ответах система без изменений.
+
+Если любой противник вступает мастью, то все контры ОТК и ОТВ – наказательные. Исключение:
+\bdn {
+1NT (P) 2♣ (2♠)
+?
+}
+
+\bids {
+D | 4-ка ♥
+}
+
+\bdn {
+1NT (P) 2♣ (2♦)
+?
+}
+
+\bids {
+D | 4+ strong ♦, не исключает 4-ку в мажоре
+P | нет мажоров. При отсутствии дальнейшего вмешательства system on, *за исключением мусорного Стеймана*.
+2♥, 2♠ | без изменений. При отсутствии дальнейшего вмешательства system on.
+}
+
+##  Jacoby Transfer
+
+Показывает 5-ку в мажоре. Отрицает 4-ку в другом мажоре (с 4-кой используется Стейман).
+ОТВ обычно завершает трансфер.
+
+Суперподъём показывает максимум с отличным фитом и хорошей рукой. Далее ОТВ может спасовать, поставить 4M,
+показать SI (NS - краткость, 3NT - нет краткости).
+
+
+\bids {
+2♠ (после показа ♥) | 5-5, GI
+2NT| =5M, GI
+3♣, 3♦ | 4+, GF
+3♥ (после показа ♠) | 5-5, GF
+3M | 6-ка M, GI
+3NT | пас или коррекция
+NSJ | автосплинтер, SI
+4M | 6-ка M, SI, нет краткостей
+}
+
+
+###  Конкуренция
+
+\bdn {
+1NT (P) 2♦ (D)
+?
+}
+
+\bids {
+R  | 4+ strong ♦
+P  | нет фита
+2♥ | фит
+3♦ | нормальный суперподъём
+3♥ | суперподъём, ход в ♦ приемлем
+}
+
+\bdn {
+1NT (P) 2♦ (D)
+P   (P) ?
+}
+
+\bids {
+R  | требует завершить трансфер, затем новая масть – GF
+2♥ | sign-off
+Новая масть | NF
+2/3NT | с задержкой
+кюбид (после реконтры или без) | нужна задержка
+}
+
+Аналогично после контры на 2♥.
+
+##  Texas Transfer
+
+Прыжок в 4♦/♥ показывает 6+ ♥/♠. ОТК должен завершить трансфер, и ОТВ обычно пасует. Если ОТВ заявляет снова, то: 4NT – KCB, новая масть – eKCB.
+
+**После вмешательства контрой:**
+Pass - normal action to put doubler on lead; R - туз; завершение трансфера - играть со своей руки.
+
+##  Minor Suit Stayman
+
+2♠ показывает миноры от 4-4, по меньшей мере, с мягким шлемовым интересом.
+
+\bdn {
+1NT (P) 2♠ (D)
+?
+}
+
+\bids {
+3♣/♦ | Один минор. Далее, 3♥/♠ – это показ синглета; 4m - KCB; 4M - eKCB.
+3♥ | 2♠-3♥-4-4. Далее, 4m - KCB.
+3♠ | 3♠-2♥-4-4. Далее, 4m - KCB.
+3NT | концентрация силы в мажорах (нет миноров: 4-4-(3-2), 4М-3-3-3). Далее, 4m - KCB.
+2NT | всё остальное; далее, 3♥/♠ – это показ синглета; 4m - KCB.
+}
+
+
+##  1NT – 3♥/♠
+
+3♥/♠ – SI в соответствующем миноре. Два шага ответов – инвит не принят/принят.
+Далее: 3NT – to play, 4m – KCB, 4 в другой масти – eKCB, 4NT (after 1NT-3♠-4♣) – eKCB в трефе.
+
+## Конкуренция на 1NT
+
+В этом разделе описана торговля после прямой конкуренции на 1NT. Конкуренция после Стеймана и трансферов описана в соответствующих разделах.
+
+После вмешательства контрой:
+\bdn {
+1NT (D) ?
+}
+
+\bids {
+R | rescue with one minor (ОТК заявляет 2♣, затем пас или коррекция)
+other | unchanged
+}
+
+###  Оверкол, показавший мажоры
+
+После оверкола на 2-м уровне (2♣/♦/♥), показавшего мажоры:
+\bids {
+**кюбид (2(3)♥/2♠)** | GF в ♣/♦
+2NT | "Lebensohl": sign-off in 3m.
+3m | натурально, GI
+jump cuebid (3M) | GF, shortness (0 or 1) in that MAJOR.
+3NT | предложение контракта, *ничего не говорит о задержках* в мажорах.
+контра | наказательная, по меньшей мере, на одну масть. На 2♥ – наказание на черву и минимум tolerance к наказанию пики.
+}
+
+###  1NT – (2♣)
+
+После вмешательства 2♣ (не два мажора):
+\bdn {
+1NT (2♣) ?
+}
+
+\bids {
+D | аналог Стеймана ("Stolen Bid")
+Other | system on
+}
+
+### Оверколы 2♦ и выше
+
+No matter it means (other than MAJORS), here is the schedule:
+\bdn {
+1NT (2♦+) ?
+}
+
+\bids {
+2X | NAT, NF
+3X | NAT, GF (Lebensohl)
+3-cuebid | GF, другой мажор, нет задержки
+3NT | отрицает задержку (Lebensohl)
+2NT | **Lebensohl**
+4X | "Front of Card" – Texas (если интервенция была не выше (≤) 3♣), Gerber.
+D | ”cards”, если интервенция на 4-м уровне;
+  |наказательная, по меньшей мере, на одну масть, если показаны две масти;
+  |негативная на якорную масть, если показана одна масть;
+  |показ силы (GI+), если масть неизвестна.
+}
+
+- Искусственный оверкол трактуется как натуральный в якорной масти.
+- Bids in suits not indicated (although possibly bid) by an artificial action
+  have the same meaning as if the interference had been a natural bid in an indicated suit, например,
+1NT –  (2♥, показывая пику) – 3♥ эквивалентно
+1NT – (2♠, натурально) – 3♥.
+- 4♣ by responder is always Gerber (jump or not) after interference.
+
+####  Lebensohl
+
+2NT – реле в 3♣, затем заявка ОТВ в масти ниже, чем 3 в масти оверкола – NF;
+для кюбида (показ другого мажора) и 3NT применяется принцип “direct denies” – прямая заявка
+отрицает задержку, отложенная (после 2NT) обещает.
+При интервенции неизвестной мастью или двухмасткой соглашение о задержке is off.
+
+### Разные ситуации
+
+\bdn {
+1NT (P) P (2♥)
+}
+
+D – наказательная. Пример: ♠ K4 ♥ AQT6 ♦ J983 ♣ AK4
+
+\bdn {
+1NT (2♥) P (P)
+}
+
+D – призывная. Пример: ♠ AQ54 ♥ 76 ♦ AK54 ♣ A54
+
+# Открытие 2♣
+
+18-21 HCP в равномере или GF с ♣, ♥ или ♠.
+
+## Ответы
+
+\bdn {
+2♣ (P) ?
+}
+
+\bids {
+2♦ | нет хорошей описательной заявки
+2♥/♠ | 0-4(5), 5+. Далее 2NT - F1, BAL, with support (3M - negative).
+2NT | 0-4(5), 5+m. Далее 3m - pass or correct; 4NT - asks to bid the minor.
+3♣/♦/♥ | Hxxxxx or HHxxxx in the next suit, no side ace or king
+3♠ | HHxxxx in ♣ (not AK), no side ace or king
+3NT | AKQxxx(x) in any suit
+4X | AKJxxxx/AQJxxxx/KQJxxxx in the next suit
+}
+
+After any 3/4-level response:
+- Responses to 4NT after a 3-level transfer are: 1 step = Q, 2 steps = A or K, 3 steps = KQ or AQ, 4steps = AK.
+- After a 4-level transfer we use normal RKC
+- 5NT asks reponder to bid a grand slam with extra length
+
+\bdn {
+2♣ 3♦
+?
+}
+Opener bids as if responder has something like Kxxxxx and not much more.
+If opener bids 3♥, responder will pass with that hand.
+If responder has AQ or KQ in top of the suit he can, if possible, rebid a relay
+bid at the 3-level, giving opener a chance to bid 3NT.
+With AK in top responder will bid 3NT next himself, judging that even xx
+in openers hand is enough for a game.
+
+### Конкуренция
+
+**2♣ - (D)**
+\bids {
+P | weak
+R | GF, if opener rebids 2N, we use our methods
+Other | system on
+}
+
+**2♣ - (D, both majors)**
+\bids {
+P | weak or wants to make a penalty double next
+R | GF, if opener rebids 2N, we use our methods
+Other | system on, but 2M is GF with stopper
+}
+
+**2♣ - (overcall)**
+\bids {
+D | GF, if opener rebids 2N, we use our methods
+Bids | GF, NAT
+}
+
+**2♣ - (5 level bid)**
+\bids {
+P | F1, opener doubles with the balanced hand type
+D | not interested in higher contracts
+}
+
+##  2♣ - 2♦
+
+\bids {
+2♥ | 18-19, BAL, or GF with 5+♥
+2♠ | GF, 5+♠
+2NT  | 20-21, BAL
+3♣   | GF with 5+♣, not 4♦
+3♦   | GF with 5+♣ and 4+♦
+3♥/♠ | GF, sets the suit as trumps
+3/4NT | 9/10 tricks with solid ♣ (4N promises all aces)
+}
+
+---
+
+\bdn {
+2♣ (P) 2♦ (D=♦)
+?
+}
+
+\bids {
+Pass | 18-19, BAL, no stopper. Далее R = continue according to the system, please!
+R  | weak diamonds with 20-21
+other | system on
+}
+
+###  2♣ - 2♦ - 2♥
+
+\bids {
+2♠ | relay - may still be weak if no 5+card suit
+2NT  | 0-4 HCP and 5-5 in the minors
+3♣/♦ | NF, 4-6 with (5)6+m, to play opposite 18-19 if no good fit
+3♥ | GF, 5-6 HCP and 5-5 in the majors
+3♠ | GF, 5-7 HCP and 5-5 in the minors
+}
+
+\bdn {
+2♣ (P) 2♦ (P)
+2♥ (D) ?
+}
+
+Независимо от смысла контры:
+\bids {
+Pass | weak, no 4-card spades. Далее R ОТК - призывная.
+R  | weak, 4-card spades
+2♠ | GF
+other | system on
+}
+
+
+####  2♣ - 2♦ - 2♥ - 2♠
+
+This is a very frequent start after 2♣.
+
+\bids {
+2NT  | 18-19, BAL
+3♣ | GF, 5+♥ and 4+♣
+3♦ | GF, 5+♥ and 4+♦
+3♥ | GF, 6+♥. *Nilsland: 3♣ и 3♥ инвертированы*
+3♠ | GF, 5+♥ and 4+♠. Далее Lissabon: 4♣/♦ = 8+, good raise, sets ♥/♠.
+3NT | NF, 5♥ and 4♠. Далее Lissabon: 4♣/♦ = 8+, good raise, sets ♥/♠.
+4♣/♦ | 10-11 playing tricks with 5-5
+4♥ | 10 playing tricks, no void
+}
+
+### 2♣ - 2♦ - 3♥/3♠/4♣
+
+\bdn {
+2♣ (P) 2♦ (P)
+3♥ (P) ?
+}
+
+3♥ – SI+, устанавливает данную масть как козыря (обычно, плотная масть, но возможно длинная полуплотная AQJxxxxx).
+\bids {
+4♥ | единственный signoff, не показывает ничего, даже фита.
+3♠, 4♣, 4♦ | туз
+3NT | 5+, нет тузов. Далее ОТК может потребовать К, заявляя новую масть. Возврат в козырную масть – негатив. Заявки ОТК в БК – контракт.
+}
+
+Аналогично после 3♠, 4♣ (масть со скачком).
+
+
+# Открытие 2♦
+
+- weak two bid in ♥ or ♠
+- GF with ♦, or BAL (25+), or 4441M
+
+\bdn {
+2♦ (P) ?
+}
+
+\bids {
+2♥ | пас или коррекция
+2♠ | пас или модифицированная коррекция: 2NT - черва и минимум, 3\c - черва и максимум
+2NT | ART, GI+, с фитом по меньшей мере в одном мажоре.
+3♣ | GF с собственным длинным мажором; после автомата 3♦ показывается мажор.
+3♦ | GF с собственным длинным минором; далее: 3M (показ мажора) – 4m.
+3♥ | пас или коррекция
+3♠ | пас или коррекция
+3NT | контракт
+4♣ | просьба дать трансфер в свой мажор, чтобы разыгрывал ОТВ, нет SI
+4♦ | просьба заявить свой мажор, чтобы разыгрывал ОТК, нет SI
+4♥ | пас или коррекция
+4♠ | контракт
+}
+
+\arg{Rodwell: Basic responses to a Mini Multi}{
+If responder would want to stop in two of opener’s major,
+he bids a ‘pass or correct’ 2\h.
+
+A 2\h response is appropriate on a hand that likes neither major, or likes only spades.
+After all, if opener has spades he will correct and you can reconsider what to do then. Example:
+\hand{K865.2.AK876.K83}{Responder}
+If partner has a weak two in hearts, you want to play 2\h.
+If partner has a weak two in spades you want to be in 4\s.
+The solution is to bid 2\h, pass or correct, playing there if partner has hearts.
+If opener corrects to 2\s, you jump to 4\s.
+
+What if you have a hand that likes hearts but not spades? Now you can bid 2\s,
+which is also a pass or correct response. An obvious example would be the previous
+hand with the majors switched. You bid 2\s, playing there if opener has spades
+and when he corrects (if he should have hearts), you would bid 4\h.
+
+It is not necessary to have game ambitions for a pass or correct response:
+\hand{J87.76.A7654.K87}{Responder}
+You would respond 2\h, pass or correct. If opener bids 2\s, you would raise
+to 3\s, just as if partner opened a weak 2\s. Think of these types of follow-up
+sequences this way:
+*once partner shows a specific weak two, bid what you would have bid had he opened a weak two in that suit*.
+There are a few twists on this idea I will get into later.
+On this hand, you would raise 2\s to 3\s, preemptive. As usual, when partner
+opens a weak two you need to bid 2NT to show game interest.
+
+If responder wants to preemptively raise either major, he responds 3\h, pass or correct:
+\hand{J87.Q76.83.AJ765}{Responder}
+Respond 3\h to 2\d, pass or correct, but preemptive.
+
+If responder wants to be in game opposite either weak two he can respond 4\h,
+pass or correct. This might be preemptive or could be a better hand,
+just as over a natural weak two.
+}
+
+Заявка масти после коррекции - NAT, NF: 2♦-2♥ - 2♠-3♣/♦ – контракт.
+
+\arg{Rodwell: hand that wants to be in 3♣}{
+\hand{2.KQ8.A6.KJT9765}{Responder}
+If partner has a weak two in spades, it rates to be right to play in 3\c.
+If partner has hearts, you want to bid 4\h.
+This is a drawback of Mini Multi’s ambiguity about the major.
+
+With a hand that (probably) wants to be in 3\c, we respond the LONGER major, in this case 2\h.
+If opener passes you are in a playable contract (and they might be able to make 4\s anyway).
+In the more likely case that he corrects to 2\s, you then bid 3\c which is to play.
+
+If responder bids 2\s over 2\d, I recommend these modified rebids: 2NT and 3\c.
+This way, responder can still get to 3\c (imagine the last responder hand with the majors reversed).
+More importantly, responder can get to 3\h or 4\h from his side,
+using the range information to make a decision about how much to bid.
+}
+
+Most of the time if responder has a long major he will not want to force to game.
+The solution is to bid your long major, pass or correct, then when corrected,
+rebid your major. This is non-forcing but opener might raise with a suitable hand.
+
+\arg{Rodwell: 3♣ response as a forcing hand with own long major}{
+Opener bids 3\d and responder bids his long major. If opener wants to raise
+that major, he bids 4 of the major; with a good raise he can bid 4\c or 4\d
+(4\c is a cuebid, 4\d denies a club control and might have all values in the majors):
+\deal{W:K87.AJT876.876.2 E:AQ96543.2.AK2.AK}
+\bdn {
+2\d 3\c\1{game forcing with a long major}
+3\d 3\s\2{spades is the long major}
+4\c\3{cuebid, good raise} 4NT
+5\h 7\s
+}
+
+If responder bids 3\h and opener doesn’t want to raise, he can bid 3NT
+with something in the minors. Most of the time he won’t have that so he
+can just wait by bidding 3\s (which is obviously his major) and let responder
+do what he wishes (natural continuations).
+
+If responder bids 3\s and opener doesn’t want to bid 3NT, he is stuck.
+I would say that opener can bid 3NT with something in only one minor and whether
+to leave it there is up to responder. One other tool will help:
+*responder’s 3NT continuation (instead of 3\s) shows long spades but willingness to play 3NT*.
+\deal{W:2.KJT764.876.JT6 E:AQT876.2.AKJ.AQ3}
+\bdn {
+2\d 3\c
+3\d 3NT
+}
+Not that 3NT will always make but responder can hardly fail to force to game.
+}
+
+## 2♦-2M
+
+\bdn {
+2♦ (P) 2♥ (P)
+?
+}
+
+\bids {
+пас | to play
+2♠ | ♠
+2NT | 25+ BAL or semi-balanced
+3♣ | GF with 5+♦ and 4+♣
+3♦ | GF with 5+♦, may have a 4-card major
+3♥ | GF with =1444
+3♠ | GF with =4144
+3/4NT | solid ♦, 9/10 playing tricks, 4N promises all aces
+}
+
+*Note:* заявки 3♣ и 3♦ не инвертированы как у Nilsland.
+
+\bdn {
+2♦ (P) 2♠ (P)
+?
+}
+
+\bids {
+пас | to play
+2NT | черва и минимум
+3♣ | черва и максимум
+3♦ | GF with 5+♦
+3♥ | GF with =1444
+3♠ | GF with =4144
+3NT | 25+ BAL or semi-balanced
+}
+
+\bdn {
+2♦ (P) 2NT (P)
+?
+}
+
+\bids {
+3♣, 3♦ | ♥/♠, max
+3♥, 3♠ | NAT, min
+}
+
+\bdn {
+2♦ (P) 2NT (P)
+3♣ (P) 3♥ (P)
+?
+}
+
+3♥ –  согласует ♥ и SI.
+
+\bids {
+3♠ | 1-й шаг – есть ренонс (после реле показывается н/э)
+3NT | ровно синглет ♠
+4♣ | ровно синглет ♣
+4♦ | ровно синглет ♦
+4♥ | 6-3-2-2
+}
+
+Аналогично после согласования ♠.
+
+##  Конкуренция
+
+\bdn {
+2♦ (D) ?
+}
+
+System on, пас = to play.
+
+\bdn {
+2♦ (2M) ?
+}
+
+D = пас или коррекция. В остальном, system on.
+
+\bdn {
+2♦ (3/4X) ?
+}
+
+\bids {
+D | наказательная
+minors | NF
+majors | пас или коррекция
+**cuebid** | **SI в любом мажоре**
+}
+
+# Открытия 2♥, 2♠
+
+10-13 HCP, but in 4th position 12-14 HCP.
+Distributions:
+\bids {
+7-card suit | seldom, sometimes with 7222
+6-5 in 2 suits | never
+6-4 in majors | seldom
+6-4 with minor | often
+6331, 6322 | always, except with a weak suit
+}
+
+\bdn {
+2M ?
+}
+
+\bids {
+2♠ | F1, NAT, 5+ spades
+2N | F1, relay
+3♣/♦ | GF, NAT
+3♥ | GF, 5+ hearts
+3M | NF, only mildly invitational but not a weak preempt
+3N/4M | to play
+NSJ | splinter
+}
+
+-----------------------------------------
+
+__2M-(D)__
+
+\bids {
+R | strength, invites penalty double
+Other | system on
+}
+
+__2♥-(2♠)__
+
+\bids {
+D | penalty
+2N | F1, NAT
+3m | F1, NAT
+}
+
+__2M-(higher overcalls)__
+
+\bids {
+D | penalty
+New suit | F1, NAT
+Cue-Bid | GF with support, often ST
+}
+
+-----------------------------------------
+
+\bdn {
+2M 2N
+?
+}
+
+Аналогично 1M-2NT to keep it simple to remember!
+
+*If responder is a passed hand though,
+our rebids are NAT. We also use completely natural bids when the opponents have bid
+anything but pass.*
+
+Maximum or minimum in this situation is not only about points, but also whether
+the hand is suitable for slam or not.
+
+\bids {
+3♣ | 10-11 (minimum). *У Nilsland сложнее: +maximum&ренонс*. Далее: 3♦ - SI, relay: 1 step = no shortness, 2-4 steps - singleton up-the-line (♣,♦,oM)
+3♦ | GF, maximum. Далее: 3♥ asks for singleton - 1 step = no shortness, 2-4 steps = singleton up-the-line (♣,♦,oM)
+3♥/♠ | 6-4 with ♣/♦, not too bad suits. Далее: 4m sets the minor as trump (at least for now)
+3N | 6-4OM. Далее: 4OM to play.
+4X | void. *У Nilsland: +minimum*
+}
+
+
+# Открытие 2NT и аналоги \ref{2NT}
+
+- Открытие 2NT – 22-24 HCP,
+- последовательность 2♣ - 2♦ - 2NT – 20-21 HCP,
+- последовательность 2♣ - 2♦ - 2♥ - 2♠ - 2NT – 18-19 HCP.
+
+Расклад равномерный, но чем сильнее, тем менее дисциплинированно, чем при 1NT. Возможна 5-ка в мажоре.
+
+\bdn {
+2NT (P) ?
+}
+
+\bids {
+3♣ | Puppet Stayman
+3♦,3♥ | transfers
+3♠ | SI+, минорная рука, либо одномастка, либо от 5-4. Требует автомат 3NT.
+3NT, 4♠ | sign-off
+4♣ | Gerber
+4♦,4♥ | Transfers. Далее 4NT – KCB, новая масть – eKCB.
+4NT | SI
+}
+
+\bdn {
+2NT (P) 3♣ (P)
+?
+}
+
+\bids {
+3♦ | есть мажорная 4-ка.
+3♥, 3♠ | 5-ка
+3NT | нет мажоров
+}
+
+\bdn {
+2NT (P) 3♣ (P)
+3♦  (P) ?
+}
+
+\bids {
+3♥ | 4-ка ♠, нет 4-ки ♥
+3♠ | 4-ка ♥, нет 4-ки ♠
+3NT| нет мажоров
+4♣ | оба мажора, SI. If partner is open to the idea,
+   |  you can now use 4♦ by opener as RKCB with hearts agreed,
+	| and 4NT to ask in spades.
+4♦ | оба мажора, либо нет шлемового интереса, либо желаниие взять инициативу на себя
+}
+
+\bdn {
+2NT (P) 3♠ (P)
+3NT (P) ?
+}
+
+\bids {
+4♣ | от 5-4 в минорах, ожидая Redwood от ОТК
+4♦ | Redwood, устанавливая козыря (♣)
+4♥ | Redwood, устанавливая козыря (♦)
+}
+
+
+#  Открытие 3NT
+
+Плотный или полуплотный минимум 6-карточный (обычно, 7-карточный) минор с минимум двумя боковыми задержками, 16-21 HCP.
+
+\bdn {
+3NT (P) ?
+}
+
+\bids {
+Pass | почти всегда
+4♣ | инвит к шлему, 9+ HCP, с минимум 3 контролями. ОТК может: (а) вернуться в 4БК или 5 в миноре; (б) кюбид в мажоре; (в) 4♦ – Gerber
+4♦ | Gerber
+4♥, 4♠ | хорошая 6+ масть без боковых тузов. NF, но шлем возможен.
+4NT | инвит к шлему. Отрицает наличие трёх контролей.
+5♣ | (редко) попытка играть гейм в миноре. Аналогично, после Gerber 4♦.
+}
+
+##  Конкуренция
+
+\bdn {
+3NT (D) ?
+}
+
+\bids {
+Pass | какая-то сила
+4♣ | убегание
+R | заменяет нормальный ответ 4♣
+Other | unchanged
+}
+
+\bdn {
+3NT (4X) ?
+}
+
+\bids {
+D | наказывает
+4NT | контракт
+Other | unchanged
+}
+
+#  Блоки
+
+##  Блоки на 3-м уровне
+
+**Ответы**:
+- новая масть без прыжка – F1, если не гейм; контракт, если гейм
+- 4M – to play
+- подъём минора ОТК – блокирует
+- KCB: 4NT – на мажор, 4om – на минор
+
+**Конкуренция**:
+- Подъём масти ОТК – блокирует
+- Новая масть без прыжка ниже гейма — F1, натурально
+- Контра/реконтра — наказательная
+
+##  Геймовые блоки
+
+**Новая масть** (напр., 4♥-5♣) – вопрос о контролях в данной масти.
+Ответы по шагам – нет, король или синглет, туз или ренонс.
+При вмешательстве оппонентов применяется DOPI, при условии что ответ не превысит 6 в козырной масти.
+
+**Конкуренция**:
+Контра/реконтра — наказательная.
+
+
+#  RHO opens 1 в масти   #################################################################
+
+\bdn {
+(1♣) ?
+}
+
+\bids {
+D  | 12+, призывная
+1♦, 1♥, 1♠ | 8-17, от 5-ки (редко 4-ки)
+1NT | 15-18, BAL, stopper
+2♣ | 10-17, от 5-ки
+NSJ| weak
+2NT| two lowest **unbid** (♦, ♥)
+3♣ | ART, strong 1-suiter
+}
+
+- 1♥, 1♠: как исключения, могут быть на сильной 4-ке при силе 12+ и невозможности дать призывную контру.
+- 1NT: дальнейшая торговля – как после открытия 1NT.
+- 1NT в прямой позиции с пасовавшей рукой: длина в двух минимальных незаявленных мастях (аналогично 2NT, но с меньшей игровой силой).
+- 2NT: Включает случай полунатурального открытия. Например, (1♦, Precision) – 2NT = ♣ и ♥; (1♣, общий язык) – 2NT = ♦ и ♥.
+- 3♣: [JCO][“Jump Cuebid Overcall”]
+
+\bdn {
+(1♦) ?
+}
+
+\bids {
+2♦ | Michaels: оба мажора от 5-5
+Other | Same as above
+}
+- Если Michaels законтрили: пас – натурально, нет фита; реконтра – равные мажоры.
+
+\bdn {
+(1♥) ?
+}
+
+\bids {
+2♣, 2♦ | 10-17, от 5-ки
+2♥ | Michaels: от 5♠ и 5-ки в миноре
+Other | Same as above
+}
+
+Аналогично после (1♠).
+
+## Призывная контра (1X) – D
+
+**Масть**
+
+- single jump to the two-level shows 8-11 HCP
+- double jump to 3M shows a long suit and about 6-8 HCP (пример: ♠ Kxxxxx ♥ xxx ♦ Qxx ♣ Q)
+
+**Кюбид**
+
+- LHO — GI+, форсирует до двукратного повторения какой-либо масти, либо гейма.
+- RHO – натурально (6-ка с сильными фосками) _Если контра наказательная, то зачем?_.
+
+**Контра**
+
+- после показа фита (натурально или ненатурально) — ответная.
+  Если партнёр призывал на открытие в миноре, то ответная контра показывает мажоры.
+  (*Deprecated*: Если партнёр призывал на открытие в мажоре, то ответная контра показывает миноры.
+  _А как найти червовый фит 4-4, если у врагов пика? (1\s)-D-(2\s)-?_).
+  Если партнёр призывал на открытие в черве, то ответная контра показывает миноры.
+  Если партнёр призывал на открытие в пике, то ответная контра показывает желание поторговаться.
+- после ответа противника новой мастью или натуральным NT — наказательная.
+Пример: (1m) – D – (1M) – D — наказательная, выявление блефа.
+
+**(1X) – D – (R, независимо от значения) – P** =  нечего сказать, либо нет предпочтений, но не наказательный. Если ОТК спасует, то контрящий без наказания должен уходить с реконтры.
+
+**(1♣) – D – (1X) – 1M** =  показывает масть, сила 0-7 HCP.
+
+**(1♣) – D – (1♦) – 1♠  –  (P) – 4♥** =  предложение контракта.
+
+**(1♣) – D – (P) – 2♦  –  (P) – 2NT** = NAT, 18+
+
+\bdn {
+(1♣) D (P) 3♥
+}
+
+A double-jump response to partner’s takeout double is not an invitational bid.
+3♥ here shows a six-card suit with 6-8 HCP.
+
+\bdn {
+(1♠) D (P) 3♥
+}
+
+Here 3♥ is an invitational bid with about 10-11 HCP and five hearts.
+With only four - an invitation via a 2♠ cue-bid.
+
+\bdn {
+(1♠) D (2♠) 3♥
+}
+
+3♥ is just competitive. With stronger hand, we have to start with a responsive double.
+We can show an invitational hand with five hearts by doubling and rebidding 3♥.
+
+**The opponents have spades**
+
+If the bidding starts:
+
+\bdn {
+(1♠) D (P) 2♠
+(P) ?
+}
+
+Neither the double nor the cue-bid promises four hearts, and that is the reason for
+our agreements here. Bidding 2NT shows exactly four hearts!
+
+\bdn {
+(1♠) D (2♠) D
+(P) ?
+}
+
+After the responsive double, we need to find out if we have a heart fit.
+2NT shows exactly four hearts regardless of whether he has a minimum or not.
+He may even have a longer minor suit. If he, instead, bids 3♥, that shows a game-forcing (17+)
+hand with five hearts.
+
+
+**После показа RHO масти трансфером**, пример, (1♣) – D – (1♥, пика):
+
+\bids {
+D | ♥; 8+
+2♥ | ♥; 5-7 HCP
+3♥ | long ♥ and about 6-8 HCP
+1♠ | натурально
+}
+
+
+##  Мастевой оверкол
+
+Общие принципы ответов:
+- Новая масть - NAT, NF
+- Кюбид LHO без прыжка - либо фит (11+), либо прелюдия к форсирующей заявке в новой масти (вторая опция только для UPH).
+- Кюбид LHO с прыжком - mixed raise.
+- Кюбид RHO на 2-м уровне - NAT, strong 6+.
+- Over a bid by responder, a jump, below-game, new-suit advance is a fit-jump.
+- A single raise is a similar to single raise of major-suit one-bid; direct jump-raises are preemptive.
+- 1NT - 8-11 HCP and a stopper in opener’s suit
+- 2NT - на 1♦ - 12-13 HCP and a stopper in opener’s suit; на 1♥/1♠ - 4-card fit, BAL, 11+.
+- Контра на кюбид RHO - аналог простого подъёма ("Stolen Bid").
+- Контра - "призывная" (либо оставшаяся масть и tolerance к масти партнёра (Snapdragon),
+  либо интерес к незаявленным мастям (ответная)) или общая сила, в зависимости от уровня.
+- Реконтра на негативную контру от RHO - общая сила.
+
+
+\arg {Doubling 1NT}{
+> “Be aware that doubling 1NT for penalty is not a good idea. If they bid to 1NT, they tend to have their values.
+> If you have a good hand you will find that it is your partner who is bidding a lot, not the opponents.” (Lawrence, CBO)
+}
+
+
+###  Другие ситуации после мастевого оверкола
+
+После нашего блока и подъёма масти открытия контра – наказательная.
+
+Если открытие LHO было от дублета или меньше, например, 1♣ ОЯ, Березка, или 1♦ Precision:
+- RHO спасовал или заявил 1NT, то торговля как при натуральном открытии
+- RHO показал масть, то заявки в «масти» LHO натуральны.
+
+
+##  Jump Cuebid Overcall \ref{JCO}
+
+One-suiter with 8.5+ playing tricks. If a major suit is held, overcaller confirms a shortness in the enemy suit. Responses:
+\bids {
+Cheaper minor | ART, weakness: no stopper, <3 controls.
+Higher minor | ART, no stopper, 3+ controls.
+3NT | stopper
+4NT | “non-control” stopper, 3+ controls.
+5NT | “control” stopper, 3+ controls.
+Any major suit | NAT, good 6+. F if below game.
+}
+
+**Competition**: If RHO bids or doubles – a “common sense” approach (cheaper minor or R – ART, constructive).
+
+Rebid 4NT (even over 3NT) – ordinary Blackwood.
+
+##  Balancing
+
+If an enemy opening bid of 1 of a suit is passed.
+
+\bdn {
+(1♣) P (P) ?
+}
+
+\bids {
+D  | 11+, призывная
+1♦, 1♥, 1♠ | 8-15, от 5-ки (редко 4-ки)
+1NT | 11-14, BAL, stopper, system on
+2♣ | сильная рука с двухмасткой.
+NSJ| около 15 очков, от 6-ки
+2NT| 20-21, BAL, stopper, system on
+}
+
+* D, затем 2NT – 17-19, BAL. Далее натурально.
+* Cuebid: Примеры:
+1♣-P-P-2♣:   ♠ K Q 10 9 8 7 6 ♥ A K ♦ A Q 9 7 ♣ –
+1♣-P-P-2♣:   ♠ A Q 10 8 7 6 ♥ A ♦ A K Q J 7 6 ♣ –
+* NSJ: Примеры:
+1♣-P-P-2♠:   ♠ Q J 9 8 7 4 ♥ A 2 ♦ A K 3 ♣ 10 7
+1♦-P-P-2♠:   ♠ Q J 10 8 7 5 4 ♥ A 2 ♦ 3 ♣ A 9 7 (the extra spade = couple of points)
+
+Аналогично после остальных мастевых открытий на первом уровне.
+
+- 1NT после открытия 1♥, 1♠ – 11-16 HCP.
+
+##  Sandwich
+
+After an enemy opening bid of 1 of a suit and an enemy response,
+most actions are the same as immediately over the suit opened,
+in which case responding structures would be the same too.
+The following differences apply.
+
+###  После открытия и ответа 1-на-1
+
+- **2-cue – натурально в любой из мастей**.
+  Напр., (1♣) – P – (1♠) – 2♠ = пика (6-ка с сильными фосками).
+- Интервенция на трансфер: (1♣) – P – (1X, трансфер) – ? — D = заявленная масть, кюбид = призывная контра, 1NT – натурально (?).
+- 2NT – показывает две непоказанные масти (открытие всегда трактуется как натуральное), напр., (1♣, от ренонса) – P – (1♥, пика) – 2NT — показывает ♦ и ♥.
+- **3-cue** в любой масти – [JCO]["Jump Cue-Bid Overcall"].
+
+###  После открытия и ответа 1NT
+
+- double – призывная на масть открытия;
+- 2-cue – то же, что и 2-cue в прямой позиции, но 2♣ теперь показывают мажоры;
+- 2NT – показывает две младшие незаявленные масти.
+- 3-cue – конвенция [JCO]["Jump Cue-Bid Overcall"].
+
+###  После открытия и подъёма
+
+- 2-cue – “Michaels” (после искусственного подъёма или вопроса)
+- 3-cue – “Michaels” (после натурального подъёма)
+- 2NT (после (1M)-P-(2M)) – два минора
+- NSJ – около 15 HCP, от 6-ки.
+
+###  После открытия 1NT и искусственного ответа
+
+**После (1NT; сильный или слабый) – P – (2♣; Stayman) – ?**:
+- контра показывает трефу, сила не определена.
+
+**После (1NT; сильный или слабый) – P – (2♦/♥; transfer) – ?**:
+- контра показывает законтрённую масть;
+- кюбид – “Michaels”.
+
+##  Дополнительные соглашения
+
+**Отложенное вступление в масть противника** в позиции balancing, либо на нефорсирующую заявку является натуральным.
+
+**Отложенные контры** на 1-м и 2-м уровнях являются призывными.
+
+#  Защита после натурального блока
+
+The following agreements apply when an opponent opens with a natural,
+nonforcing suit bid from 2♣ thru 5♦. Normally such openings are weak,
+but strength doesn’t matter; e.g., a Precision (natural) 2♣ would be included.
+
+- 2NT – В любой позиции 16-18, равномер, с задержкой.
+- NS – 12-17, 6+ (good 5) cards
+- Контра до 4♠ (включая) — призывная.
+- После призывной контры на 4-м уровне 4NT показывает:
+на 4♠ — 5-5 без пики;
+на 4♥ — 5-5 в минорах;
+на 4m — натурально.
+- 4NT:
+на 4♠ — 5-5 без пики;
+на 4♥ — 5-5 в минорах;
+на 4m — натурально.
+- 3-cue, 4-cue – "Michaels".
+- 4♣/4♦ после 2♥/2♠ — показанный минор и другой мажор.
+- NSJ — около 15 очков, от 6-ки.
+
+##  Competitive agreements
+
+If we act and opener’s partner bids:
+
+\bdn {
+(2♥) D (3♥) ?
+}
+
+\bids {
+D | наказание
+NS | 6-9 below game; 6-15 if game
+Other | unchanged
+}
+
+Аналогично для всех призывных контр.
+
+\bdn {
+(2♥) 2♠ (3♥) ?
+}
+
+\bids {
+D | наказание
+Other | unchanged
+}
+
+Аналогично для всех оверколов.
+
+*Note that responsive doubles do not apply after weak openings и лимитированных открытий типа Precision 2♣.*
+
+
+# Защита после открытия 1NT (Astro)
+
+After an enemy opening bid of 1NT, regardless of strength (? _mini_ ?),
+the Astro convention is used in both direct and balancing positions.
+
+\bdn {
+(1NT) ?
+}
+
+\bids {
+D | 16+ (для открытия 15-17), optional
+2♣ | ♥ + минор
+2♦ | ♠ + другая
+2♥, 2♠ | от 6-ки
+2NT | миноры
+3♣, 3♦ | от 6-ки
+}
+
+- D – показывает силу превосходящую ОТК в прямой позиции;
+  силу от открытия против mini NT;
+  может иметь ту же силу в позиции reopening. Остальные заявки натуральны?
+- All bids suggest 9-15 HCP, but this is flexible per shape and vulnerability.
+- Two-suiters imply at least 5-4 shape (either way) but may be 4-4-4-1 (three suits, синглет в мажоре).
+
+\bdn {
+(1NT) 2♣ (P) ?
+}
+
+\bids {
+Pass | 6+ ♣, мисфит
+2♦ | нет 3-ки ♥
+2♥ | 3+ ♥
+2♠ | от 6-ки
+2NT | ART, GI+
+3♣, 3♦, 3♠ | от 6-ки, GI
+3♥ | 4+ ♥, GI
+}
+
+\bdn {
+(1NT) 2♦ (P) ?
+}
+
+\bids {
+Pass | 6+ ♦, мисфит
+2♥ | нет 3-ки ♠
+2♠ | 3+ ♠
+2NT | ART, F, GI+
+3♣ | от 6-ки
+3♦, 3♥ | от 6-ки, GI
+3♠ | 4+ ♠, GI
+}
+
+##  Rebids by Astro bidder
+
+\bdn {
+(1NT) 2♣ (P) 2♦
+(P) ?
+}
+
+\bids {
+Pass | ♦
+2♥ | 5-ка ♥, 4+ ♣
+2♠ | 3♠-4♥-1♦-5♣
+2NT | оба минора (1♠-4-4-4)
+3♣ | от 5-ки
+3♦ | от 5-ки ♦, GI
+3♥, 4♣, 4♦ | от 6-ки, GI
+}
+
+\bdn {
+(1NT) 2♦ (P) 2♥
+(P) ?
+}
+
+\bids {
+Pass | ♥
+2♠ | 5-ка ♠, 4+ в миноре
+2NT | оба минора (4-1♥-4-4)
+3♣, 3♦ | от 5-ки
+3♥ | от 5-ки ♥, GI
+3♠, 4♣, 4♦ | от 6-ки, GI
+}
+
+##  Конкуренция
+
+\bdn {
+(1NT) 2♣ (D) ?
+}
+
+\bids {
+Pass | предпочтение ♣
+2♦ | предпочтение ♦
+**R** | **от 5-ки ♦**
+Other | без изменений
+}
+
+\bdn {
+(1NT) 2♦ (D) ?
+}
+
+\bids {
+Pass | предпочтение ♦
+2♥ | предпочтение ♥
+**R** | **от 5-ки ♥**
+Other | без изменений
+}
+
+# Прочее
+
+##  Защита после 2♦ (Multi)
+
+Против 2♦ *used as a weak-two in either major (Multi)*:
+контра (в прямой позиции) — 12-15, равномер или общая сила (19+ HCP).
+2NT – 16-18, равномер, задержки не гарантирует.
+После паса или контры в прямой позиции последующие контры на заявки в мажоре являются призывными на этот мажор.
+
+##  Защита против unusual 2NT (два минора)
+
+\bdn {
+(2NT) ?
+}
+
+\bids {
+D | либо наказание, по меньшей мере, в одном миноре, либо большая общая сила ((16)18+).
+3♣ | 5+, 4= в мажорах (далее 3♦ – вопрос о длинном мажоре)
+3♦ | от 5♥-5♠ – далее ОТВ либо ставит контракт, либо показывает SI и согласует соответствующий мажор, заявляя 4♣/♦.
+3♥, 3♠ | натурально с силой от открытия
+Пас, затем 3♥, 3♠ | Слабее, чем непосредственные 3♥, 3♠
+}
+
+##  Защита против 3NT (длинный минор)
+
+Аналогично защите против unusual 2NT.
+
+\bdn {
+(3NT) ?
+}
+
+\bids {
+D | ambiguous, we have to double with many hands
+4♣ | 5-4 or perhaps 6-4 в мажорах (далее 4♦ – вопрос о длинном мажоре)
+4♦ | 5♥-5♠
+4♥/♠ | NAT
+4N | strong two-suiter
+5m | NAT
+}
+
+##  Защита против искусственных открытий
+###  Против Precision Club
+
+На сильные искусственные открытия 1♣ или 2♣, или на сопутствующие слабые искусственные ответы 1♦ или 2♦: контра — мажоры; NT — миноры.
+
+(1♣, Precision) – P – (1♦) – P – (1♥) – 1♠ — сила от открытия.
+После пресижиновской 1♣ любая заявка блокирует. С хорошей рукой мы пасуем и входим в торговлю позже, если получится.
+
+(1♣, Precision) – P – (1♦) – P – (1NT) – [P – (P) –] 2♣/♦ = Astro, as if 1NT were the opening.
+
+#  Lead-Directing Doubles
+
+Doubles of artificial suit bids are lead-directing unless otherwise defined.
+
+The double of a notrump bid by non-leader is penalty and requests:
+
+\bids {
+**The bidding** | **Meaning of double**
+Neither defender has bid and your partner doubled | Lead dummy’s first bid suit
+Only partner has bid and he doubled | Lead partner’s suit
+Only you have bid and your partner doubled  | Lead your suit
+Both of you have bid | Lead suit of the strongest hand (for entries)
+No suit have been bid (e.g. 1NT – 3NT) | Lead your shortest major
+}
+
+> If opening leader has bid a suit, the Lightner double of a slam always asks him to lead his own suit (Zia – Rosenberg).
+
+\arg{Life Master Pairs, 2002, American Fall Nationals, Dealer East. N-S Vul. NS: Auken-Zia}{
+\bdn {
+**E** **S** **W** **N**
+1\d 2\s P P
+3\s P 5\h D
+6\d P P D
+P P P
+}
+
+\deal{W:AKT86.6543.6.A85 E:4.J.AKQJ8752.KT9 N:.AK972.T94.QJ432 S:QJ97532.QT8.3.76}
+После длительных раздумий Zia пошёл 7\c.
+}
+
+
+#  Методы шлемовой торговли
+
+##  KCB при мажорном козыре
+
+При мажорном козыре используется:
+- обычно 4NT: 5♣ =  0|3, 5♦ = 1|4, 5♥ = 2 без Q, 5♠ = 2 и Q.
+- особые ситуации: 1m – 1M – 2NT – 3♣ – 3♦ – 4♦ = устанавливает козыря и KCB
+
+После 1-го или 2-го шага ближайший шаг, не равный козырю = **вопрос о даме** с ответами (К – козырь):
+- если есть возможность сказать 5К: 5К – нет дамы, 6К – дама и нет королей,
+  новая масть – козырная дама и ближайший король в данной масти.
+- если нет возможности сказать 5К: 6К – нет дамы, 5БК – дама и нет королей,
+  новая масть – козырная дама и король в данной масти.
+
+После ответа на KCB заявка 5NT — **вопрос о королях** (подразумевает наличие всех пяти тузов)
+с ответами 6К – нет королей, 6 в масти ниже К – ближайший К (проблема с пиковым королём при козыре ♥).
+После показа короля заявка в масти ниже 6К – просьба поставить 7К при наличии короля в этой масти.
+
+После ответа на KCB заявка новой масти, не являющейся ни вопросом о даме, ни вопросом о королях:
+- предложение играть в данной масти, если эта масть заявлялась и была поддержана;
+- в противном случае, просьба поставить 7К при наличии контроля 3-го круга (Q или дублет).
+
+Если существует **неоднозначность** после ответа 2-й шаг (5♦ 1|4), то спрашивающий
+заявляет 5К, а отвечающий с 4 «тузами» делает минимальный шаг. Это позволяет спросить
+о даме (минимальный шаг) или о королях (2-й шаг) с двумя ответами 6К (негатив) и 7К (позитив).
+
+Если существует неоднозначность после ответа 1-й шаг (5♣ 0|3):
+- если отвечающий показал в торговле силу от 15 HCP: спрашивающий торгует, предполагая показ 3-х «тузов»;
+- в противном случае: спрашивающий заявляет 5К, а отвечающий с 3 «тузами» делает минимальный шаг.
+
+Для KCB при отсутствии явного соглашения, порядок определения согласованной масти:
+единственная поддержанная масть; единственная показанная масть; последняя показанная масть.
+
+##  KCB при минорном козыре
+
+При минорном козыре используется:
+- Crosswood (заявка 4om) – только в оговоренных ситуациях: 3♦ - 4♣
+- Minorwood (заявка 4m) – только в оговоренных ситуациях
+- Redwood (4♦/♥) – почти во всех остальных случаях
+- 4NT – когда Redwood невозможен
+
+В дальнейшей торговле 4NT является вопросом о даме, если ответ не дал информации о даме,
+и если для вопроса нет более низкой заявки. В остальных случаях 4NT является предложением контракта.
+
+###  Redwood
+
+В большинстве случаев при согласовании минора используется Redwood.
+*Redwood не используется* в оговоренных ситуациях Minorwood и если вопрос может быть истолкован как предложение контракта:
+- если козырь бубна, и черва заявлялась любым игроком. Исключения очень редко, когда заведомо нет даже 4-3:
+  1\d - 2\d - 2\h - 2NT - 3\c - 3\d - 4\h.
+- если козырь трефа, и бубна заявлялась любым игроком. Исключения: см. примеры.
+
+Если  Redwood невозможен, то используется KCB 4NT.
+
+Дальнейшая торговля аналогична торговле после KCB 4NT.
+
+**Детализация, козырь трефа**: 4♦ – 4♥ = 0|3, 4♠ = 1|4, 4NT = 2, 5♣ = 2+Q.
+
+\bdn {
+4♦ 4♥ \1{0|3}
+?
+}
+
+\bids {
+4♠ (вопрос о даме) | 5♣ – нет Q; 6♣ – Q, нет K; 5♦/♥/♠ = Q + ♦/♥/♠K
+4NT | Предложение контракта
+5♣  | Предложение контракта
+5♦ (вопрос о королях) | 6♣ – нет K, 5♥/♠/NT = ближайший K ♥/♠/♦
+6♣ | контракт
+}
+
+\bdn {
+4♦ 4♠ \1{1|4}
+?
+}
+
+\bids {
+4NT (вопрос о даме) | 5♣ – нет Q; 6♣ – Q, нет K; 5♦/♥/♠ = Q + ♦/♥/♠/K
+5♣ | Предложение контракта
+5♦ (вопрос о королях) | 6♣ – нет K, 5♥/♠/NT = ближайший K ♥/♠/♦
+6♣ | контракт
+}
+
+**Детализация, козырь бубна**: 4♥ – 4♠ = 0|3, 4NT = 1|4, 5♣ = 2, 5♦ = 2+Q.
+\bdn {
+4♥ 4♠ \1{0|3}
+?
+}
+
+\bids {
+4NT (вопрос о даме)1 | 5♦ – нет Q; 6♦ – Q, нет K; 5♣/♥/♠ = Q + ♣/♥/♠K
+5♦ | Предложение контракта
+5♥ (вопрос о королях) | 6♦ – нет K, 5♠/NT = ближайший K ♠/♥; 6♣ = ♣K
+6♦ | контракт
+}
+
+\bdn {
+4♥ 4NT \1{1|4}
+?
+}
+
+\bids {
+5♣ (вопрос о даме) | 5♦ – нет Q; 6♦ – Q, нет K; 5♥/♠ = Q + ♥/♠K; 6♣ = Q + ♣K
+5♦ | Предложение контракта
+5♥ (вопрос о королях) | 6♦ – нет K, 5♠/5NT/6♣ = ближайший K ♠/♥/♣
+6♦ | контракт
+}
+
+###  Minorwood
+
+Преимущества Minorwood перед  Redwood:
+
+1. Высвобождается заявка для кюбида.
+2. Больше возможностей остановиться в NT.
+
+Minorwood используется только в следующих ситуациях:
+
+- после открытия 1NT и показа фита в ответ на MSST
+- после открытия 1NT и показа фита в ответ на Minor Suit Stayman: 1NT – 2♠ – 3♣/♦
+- после открытия 1NT и ответа на показ минора с SI: 1NT – 3M – 1-2 шаг
+- 1m – 2m: После инвертированного подъёма заявка 4m никогда не является инвитом – это либо
+  невозможность поставить 3NT из-за отсутствия задержки, либо KCB.
+  *Note*: after any Competition over an Inverted Raise, we play 4m+1 as Redwood.
+- 1m – 2/3NT – 4m
+
+Дальнейшая торговля аналогична торговле после Redwood. В частности, вопрос о королях.
+
+**Детализация, козырь трефа**: 4♣ – 4♦ = 0|3,  4♥ = 1|4, 4♠ = 2, 4NT = 2+Q.
+
+\bdn {
+4♣ 4♦ \1{0|3}
+?
+}
+
+\bids {
+4♥ (вопрос о даме) | 5♣ – нет Q; 6♣ – Q, нет K; 4♠/NT = Q + ♠/♥K; 5♦ = Q + ♦K
+4NT | Предложение контракта
+5♣ | Предложение контракта
+5♦ (вопрос о королях) | 6♣ – нет K, 5♥/♠/NT = ближайший K ♥/♠/♦
+6♣ | контракт
+}
+
+\bdn {
+4♣ 4♥ \1{1|4}
+?
+}
+
+\bids {
+4♠ (вопрос о даме) | 5♣ – нет Q; 6♣ – Q, нет K; 4NT = Q + ♠K; 5♦/♥ = Q + ♦/♥K
+4NT | Предложение контракта
+5♣  | Предложение контракта
+5♦ (вопрос о королях) | 6♣ – нет K, 5♥/♠/NT = ближайший K ♥/♠/♦
+6♣ | контракт
+}
+
+\bdn {
+4♣ 4♠
+?
+}
+
+\bids {
+4NT | Предложение контракта
+5♣  | Предложение контракта
+5♦ (вопрос о королях) | 6♣ – нет K, 5♥/♠/NT = ближайший K ♥/♠/♦
+6♣ | контракт
+}
+
+**Детализация, козырь бубна**: 4♦ – 4♥ = 0|3, 4♠ = 1|4, 4NT = 2, 5♣ = 2+Q.
+
+\bdn {
+4♦ 4♥ \1{0|3}
+?
+}
+
+\bids {
+4♠ (вопрос о даме) | 5♦ – нет Q; 6♦ – Q, нет K; 5♣/♥/♠ = Q + ♣/♥/♠K
+4NT | Предложение контракта
+5♦  | Предложение контракта
+5♥ (вопрос о королях) | 6♦ – нет K, 5♠/NT = ближайший K ♠/♥; 6♣ = ♣K
+6♦ | контракт
+}
+
+\bdn {
+4♦ 4♠ \1{1|4}
+?
+}
+
+\bids {
+4NT (вопрос о даме) | 5♦ – нет Q; 6♦ – Q, нет K; 5♣/♥/♠ = Q + ♣/♥/♠K
+5♦ | Предложение контракта
+5♥ (вопрос о королях) | 6♦ – нет K, 5♠/NT = ближайший K ♠/♥; 6♣ = ♣K
+6♦ | контракт
+}
+
+###  Примеры
+
+\bdn {
+1♥ 2♣
+3♣ 3♥
+4♣
+}
+
+Заявка 3♥ обещает триплет и согласует мажор. Т.о., 4♣,  несмотря на то, что масть
+заявлялась и была поддержана, является кюбидом. Аналогично, 4♦ не Redwood,
+а кюбид в бубне. No doubt you can come up with hands that will play better at 6♣ than 6♥,
+but if that were the case, either responder could have bid an immediate 4♦,
+or opener could have jumped to 4♣ showing a big club fit.
+
+\bdn {
+1♣ 1♠
+3♣ 4♦
+}
+
+Yes 4♦ could be natural. But, 3♦ would have been forcing. So 4♦ is Redwood for clubs.
+
+\bdn {
+1♣ 1♦
+3♣ 4♦
+}
+
+This one might tempt us to go wrong at the table but is the same situation as above.
+3♦ would be forcing so 4♦ is Redwood for clubs.
+
+\bdn {
+1♣ 3NT
+4♦
+}
+
+В данной последовательности используется Minorwood, следовательно, 4♦ – кюбид.
+Аналогично, 1♦ – 3NT – 4♥.
+
+\bdn {
+(1♦) 2♣ (3♥) 4♦
+}
+4♦ не может быть натуральной заявкой и, следовательно, Redwood.
+
+\bdn {
+1♣ (P) 1♠ (1NT)\1{♦+♥, от 4-4}
+2♣ (3♥) 4♦
+}
+
+
+4♦ не может быть натуральной заявкой и, следовательно, Redwood.
+
+\bdn {
+1♦ 1♥
+2♦ 4♦
+4NT
+}
+
+4NT – KCB, т. к., черва заявлялась натурально.
+
+\bdn {
+1♠ 2♥
+3♦ 4♦
+4NT
+}
+
+4NT – KCB, т. к., черва заявлялась натурально.
+
+##  Вмешательство на KCB (DOPI, ROPI, DEPO)
+
+**Противники вмешиваются мастью** после Gerber, KCB:
+- интервенция ниже 5К – DOPI: контра = 0, пас = 1, шаг 1 = 2 или 2 без дамы …;
+- интервенция выше 5К – "DEPO": контра = 0|2, пас = 1, шаг 1 = 3, …
+
+Если пространство позволяет, то схема вопросов KCB (о даме, королях, контроль 3-го круга) сохраняется.
+
+Король в масти противников считается не рабочим и не показывается.
+
+5NT является вопросом о даме, если ответ не дал информации о даме, и если для вопроса нет более низкой заявки.
+В остальных случаях 5NT является вопросом о королях. Ответы: 6К – нет дамы, 7К – дама и оба короля,
+1-й шаг (6♣) – дама и, возможно, данный король (далее заявка невозможного короля просит
+поставить 7 при наличии короля ♣), дальнейшие шаги – дама и показанный король, заявка
+в масти противника – показ «трудного» короля.
+
+Если нельзя спросить 5NT, то 6 в масти просит поставить 7 с данным королём
+(спросить о контроле 3-го круга нельзя), заявка в масти противника – вопрос о «трудном» короле.
+
+**Противники вмешиваются контрой**
+- *после 4NT* – ROPI: реконтра = 0, пас = 1, шаг 1 = 2 без дамы …
+- *после мастевого вопроса* (Gerber, Redwood):
+  пас – нет контроля в данной масти (затем реконтра требует ответа на вопрос),
+  при наличии контроля ответы по шагам (реконтра – 1-й шаг).
+
+##  Вопрос о качестве задержки
+
+Если противники вступали мастью, но мы поставили 3NT, то дальнейшая заявка 4 в масти
+противников является вопросом о качестве задержки. Ответы по шагам: 1-й шаг – не лучше дамы,
+2-й шаг – король, 3-й шаг – туз, 4-й – ТК (или ТД при удачном расположении). Пример:
+
+\bdn {
+1♣ пас 1♦  1♥
+1♠ пас 3NT пас
+4♥\1{вопрос} пас 4NT\2{король} пас
+6NT
+}
+
+При вмешательстве оппонентов используется принцип DOPI при условии, что ответ не превысит 6NT.
+
+##  Разное
+
+- Кюбид показывает контроль 1-го или 2-го круга.
+- Ответы на Gerber – по шагам: 1-й шаг = 0 тузов, 2-й шаг = 1, и т. д.
+- In situation when we go past 4NT for whatever reason, 5NT plays the role of KCB.
+- 5NT (без KCB) – выбрать шлем (GSF almost never comes up, and when it does a normal KCB call usually gets the same information).
+- Если противники законтрили искусственную шлемовую попытку, такую как показ контроля или сплинтер,
+  самое слабое действие – это возврат в согласованную масть
+  (или то, что было бы самым слабым действием в отсутствие контры).
+  Реконтра на контру на сплинтер показывает контроль первого класса.
+
+
+###  Показ ренонса
+
+- Showing a splinter then immediately using Blackwood makes no sense in general.
+  This implies a void in the splinter suit, and the ace of that suit is not counted in responding (Exclusive KCB).
+- Показ краткости, затем кюбид в этой масти – показ ренонса. Имеет предпочтение перед другими кюбидами.
+- После KCB заявка на 6-м уровне масти, в которой партнёр показал краткость – просьба
+  поставить большой шлем с ренонсом (работает только, если масть краткости ниже козырной масти).
+
+\bdn {
+1♥ 2♣
+2♥ 3♠\1{Сплинтер}
+4♣ 4♠\2{ренонс}
+}
+
+
+\bdn {
+1♠ 2♣
+2♠ 4♥ \1{Сплинтер}
+4NT 5♣ \2{0|3}
+6♥ \3{If you have a void – bid seven}
+}
+
+# Summary
+
+## NT
+5M332 возможно, если 20+
+
+\bids {
+12-14 | 1m, затем 1N
+15-17 | 1N
+18-19 | 2♣-2♦-2♥-2♠-2N
+20-21 | 2♣-2♦-2N
+22-24 | 2N
+25+   | 2♦,затем 2/3N
+}
+
+## 5M-3-3-2
+
+\bids {
+11-14 | 1M, затем пас на 1N или 2M на 2m
+15-17 | 1M, затем Gazilli на 1N 2♣-2♦-2M
+17-19 | 1M, затем Gazilli на 1N 2♣-2♦-2N or 2♣-2♦-3N (less slam interest)
+20+   | as NT
+}
+
+## Длинный минор (6+)
+
+\bids {
+ 6-10 | 3/4/5m
+11-14 | 1m, затем 2m
+13-16 | 1m, затем 3m
+16-22 | 1m, затем 2N
+16-22 | 3N
+♣,22+ | 2♣-2♦-3♣
+♦,22+ | 2♦-2M-3♦
+}
+
+## Длинный мажор (6+)
+
+\bids {
+ 6-9  | 2♦/3M/4M
+10-13,=6 | 2M, =6
+10-13,7+ | 1M, затем 3/4M
+14-16    | 1M, затем Gazilli на 1N 2♣-2♦-2M
+16-21    | 1M, затем Gazilli на 1N 2♣-2♦-3M
+♥,22+    | 2♣-2♦-2♥-2♠-3♥ or 2♣-2♦-3♥
+♠,22+    | 2♣-2♦-2♠ or 2♣-2♦-3♠
+}
+
+## 2N
+
+NAT:
+- 2N;
+- 1m-2N;
+- 1N-2N;
+- 1m-2M-2N; 1♣-2♦-2N
+- 1M-2m-2N; 1♠-2♥-2N
+
+ART:
+- 1M-2N;
+- 2♣-2N;
+- 2♦-2N;
+- 2M-2N;
+- 1m-1M-2N; 1♣-1♦-2N
+- 1m-1N-2N
+- 1m-2m-2N - F, не усиливает (обычно 12-14 в равномере, но может быть выжидательной)
+- 1♦-2♣-2N - ???
+- 1♥-1♠-2N
+- 1M-1N-2N
+- 1♥-2♥-2N
+- 1♠-2♠-2N
+- 1N-2♠-2N
+
+
+Not exists:
+- 1N-2♣-2N;
+- 1N-2♦/♥-2N
+
+## Описание контр в конвенционной карте (SPECIAL DOUBLES)
+
+Почти все контры на 1-м и 2-м уровне не наказывают.
+
+Negative → ∞
+
+Responsive → ∞ (only for bid-and-raised suits)
+
+Support → до уровня ниже 2 в мажоре ответа
+
+Game-try/Maximal (Extended maximal overcall double) → 3♥
+
+## Сильные прыжковые вступления
+
+M. Lawrence: You should use strong jump overcall in three situations:
+- in the reopening seat: (1♣) – P – (P) – 2♥
+- after preempt: (2♥) – 3♠,   ♠ AKQxxx ♥ xx ♦ AQx ♣ Jx
+- after raise: (1♦) – P – (2♦) – 3♥,   ♠ QJx ♥ AQJxxxx ♦ Ax ♣ x

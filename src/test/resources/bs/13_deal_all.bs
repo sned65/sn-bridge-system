@@ -1,0 +1,30 @@
+# Deal
+
+Тег *deal* используется для форматирования сдачи.
+Примеры:
+
+All hands
+
+\deal{
+  W:K87.AJT876.876.2 E:AQ96543.2.AK2.AK N:JT.Q3.QJ54.J6543 S:2.K954.T93.QT987
+}
+
+EW
+
+\deal{W:K87.AJT876.876.2 E:AQ96543.2.AK2.AK}
+
+NS
+
+\deal {
+  N:K87.AJT876.876.2
+  S:AQ96543.2.AK2.AK
+}
+
+N-W
+
+\deal { W:K87.AJT876.876.2 N:AQ96543.2.AK2.AK }
+
+E-S (looks similar to N-W)
+
+\deal{S:K87.AJT876.876.2 E:AQ96543.2.AK2.AK}
+

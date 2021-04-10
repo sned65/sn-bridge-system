@@ -1,0 +1,26 @@
+Звёздочки (`*`) и знаки подчёркивания (`_`) используются для выделения текста.
+Пример:  
+*выделение звёздочкой (курсив)*;  
+_для обсуждения = курсив и выделение жёлтым_;  
+**сильное выделение звёздочками (полужирное начертание)**;  
+__сильное выделение подчёркиваниями (полужирное начертание)__;<br>
+~~strikethrough words.~~
+
+Emphasis can be used in the m*iddl*e of a word.
+Emphasis can be used in the m_iddl_e of a word.
+Emphasis can be used in the m**iddl**e of a word.
+Emphasis can be used in the m__iddl__e of a word.
+
+*Walsh: with less than 12 points, holding 4+ diamonds and a 4-card major,
+responder should bid the major first*.
+
+But if you surround an `*` or `_` with spaces, it'll be treated as a
+literal asterisk or underscore. * Нет выделения *
+
+\*this text is surrounded by literal asterisks\*
+
+Paragraph without ending empty line followed by a header
+#header
+
+2Paragraph without ending empty line followed by a horizontal rule
+---

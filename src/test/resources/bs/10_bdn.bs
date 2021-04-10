@@ -1,0 +1,18 @@
+1♣ (P) 1♦ (P)
+
+\bdn {
+1\c (P) 1\d (P)
+1NT (P) ?
+}
+
+One-side bidding
+
+\bdn {
+1\c 1\d
+1NT  ?
+}
+
+\bdn {
+1\c 1\d
+1NT 
+}

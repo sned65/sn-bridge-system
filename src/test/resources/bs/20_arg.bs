@@ -1,0 +1,25 @@
+# Аргументация
+
+\arg{Kit Woolsey said}{
+Doubling the opponents into game without having a sure set is always scary at IMPs.
+However, it is often the way to get a plus score and sometimes collect a good number.
+If they never make a doubled partial against you, you aren't doubling enough.
+}
+
+
+\arg {Пояснения к заявкам}{
+К заявкам можно добавлять пояснения, которые будут воспроизведены сразу после торговли.
+
+\bdn{
+1♣ \1{2+} (P) 1♦\2{Негатив} (P)
+1NT\3{18-20} (P) ?
+}
+}
+
+
+ \arg{Proposals}{
+
+- Improve slam bidding
+- Transfer answers on 1♣ opening. 
+- Muppet Stayman
+}

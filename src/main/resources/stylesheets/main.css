@@ -1,0 +1,173 @@
+dt.systems { margin-left: 5px; }
+dd.systems { margin-left: 20px; }
+.bs-sidebar-width { width: 25%; }
+.bs-content-margin { margin-left: 25%; }
+
+/*blockquote { border: double }*/
+
+.bidding { margin-left: 20px; background-color: #ddf1f1}
+.bidding tr td { min-width: 50px; }
+
+.bids { background-color: #ffffee}
+.bids tr:nth-child(even) {background: #e0e0e0}
+.bids tr:nth-child(odd) {background: #ffffee}
+.bids tr td:first-child { width: 200px; }
+
+.bs-table { border: 1px solid black; border-collapse: collapse; }
+.bs-table th,
+.bs-table td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+.bs-table-align-left { text-align: left }
+.bs-table-align-right { text-align: right }
+.bs-table-align-center { text-align: center }
+
+.bs-deal { background-color: #ddf1f1 }
+
+.yellow-bg { background-color: #ffff00}
+
+h1 { margin-top: 40px; }
+h2 { margin-top: 30px; }
+h3 { margin-top: 20px; }
+
+.bs-btn-user { float:right; }
+.bs-btn-edit { float:right; font-size:medium; }
+.bs-btn-generate {
+	float:right;
+	clear:right;
+	font-size:medium;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-right:10px;
+}
+
+.bs-input label { color:#009688!important }
+.bs-input input {
+	padding:8px;display:block;
+	border:1px solid #ccc!important; /* w3-border */
+	color:#000!important;background-color:#f1f1f1!important; /* w3-light-grey */
+}
+
+.bs-inputarea label { color:#009688!important }
+.bs-inputarea textarea {
+	padding:8px;display:block;
+	border:2px solid #ccc!important;
+	width:100%;
+	height: 150px;
+}
+
+
+.bs-check label { color:#009688!important }
+.bs-check input {
+	width:24px;height:24px;position:relative;top:6px;
+}
+
+.bs-bordered tr,.w3-table-all tr{border-bottom:2px solid #000}
+
+.bs-link-disabled {
+	color: currentColor;
+	cursor: not-allowed;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+/* ===================
+      T O O L T I P
+   =================== */
+
+/* Tooltip container */
+.bs-has-tooltip {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+}
+
+/* Tooltip text */
+.bs-has-tooltip .bs-tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+    overflow: visible;
+}
+
+/* Tooltip text */
+.bs-has-tooltip .bs-tooltip-text-left {
+    visibility: hidden;
+    width: 120px;
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 0%;/*50%;*/
+    margin-left: -60px;
+    overflow: visible;
+}
+
+/* Tooltip arrow */
+.bs-has-tooltip .bs-tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #87CEEB transparent;
+    overflow: visible;
+}
+.bs-has-tooltip .bs-tooltip-text-left::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #87CEEB transparent;
+    overflow: visible;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.bs-has-tooltip:hover .bs-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    overflow: visible;
+}
+.bs-has-tooltip:hover .bs-tooltip-text-left {
+    visibility: visible;
+    opacity: 1;
+    overflow: visible;
+}
+
+/* =================================
+      E N D   O F   T O O L T I P
+   ================================= */
+
+/* =================================
+      M E M O
+   ================================= */
+.memo-vuln-green {
+    background: green;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.memo-vuln-red {
+    background: red;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.memo-bidding { margin-left: 20px; background-color: #ddf1f1}
+.memo-bidding tr th,.memo-bidding tr td { min-width: 50px; text-align:center}

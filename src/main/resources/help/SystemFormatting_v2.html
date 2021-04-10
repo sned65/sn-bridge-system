@@ -1,0 +1,632 @@
+<h1>Introduction</h1>
+
+When designing a format for describing systems (BS-format), the following requirements were used:
+<ul>
+    <li>be as readable and convenient as possible for text editing with a regular editor;</li>
+    <li>be suitable for converting to HTML and PDF.</li>
+</ul>
+
+A Markdown-based markup language enriched with bridge-specific elements is used to describe bidding systems.
+
+<ul>
+    <li><a href="#bridge">Bridge elements</a>
+        <ul>
+            <li><a href="#bidding">Bidding</a></li>
+            <li><a href="#bids">List of bids</a></li>
+            <li><a href="#hand">Hand</a></li>
+            <li><a href="#deal">Deal</a></li>
+        </ul>
+    </li>
+    <li><a href="#arg">Argumentation</a></li>
+    <li><a href="#markdown">Markdown elements</a>
+        <ul>
+            <li><a href="#par">Paragraphs and Line Breaks</a></li>
+            <li><a href="#emphasis">Emphasis</a></li>
+            <li><a href="#headers">Headers</a></li>
+            <li><a href="#quoting">Blockquotes</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#code">Code Blocks</a></li>
+            <li><a href="#hrule">Horizontal rules</a></li>
+            <li><a href="#auto_link">Links</a></li>
+            <li><a href="#tables">Tables</a></li>
+        </ul>
+    </li>
+</ul>
+
+
+<h1><a id="bridge"></a>Bridge elements</h1>
+
+<p>For suits, you can use either symbols (♣, ♦, ♥, ♠)
+    or <code>\c</code>, <code>\d</code>, <code>\h</code>, <code>\s</code>.</p>
+
+<p>Bridge-specific elements are of the form <code>\tag{arg1}{arg2}...</code></p>
+
+
+<h2><a id="bidding"></a>Bidding</h2>
+
+<p>
+    The <strong><code>\bdn</code></strong> tag is used to format the bidding.
+    Bids are separated by spaces. Example:
+</p>
+
+<textarea readonly rows="5" cols="80">
+\bdn {
+1♣ (P) 1♦ (P)
+1NT (P) ?
+}
+</textarea>
+<p>Result:</p>
+<table class="bidding">
+  <tr>
+    <td>1♣</td>
+    <td>(P)</td>
+    <td>1<span style="color: red">♦&#xfe0e;</span></td>
+    <td>(P)</td>
+  </tr>
+  <tr>
+    <td>1NT</td>
+    <td>(P)</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<p>
+    Explanations can be added to bids, which will be reproduced immediately after the bidding.
+    Format: <code>\n{Text}</code>, where <code>n</code> is a number. Example:
+</p>
+
+<textarea readonly rows="5" cols="80">
+\bdn{
+1♣ \1{Polish club} (P) 1♦\2{0-6 points} (P)
+1NT\3{18-20, BAL} (P) ?
+}
+</textarea>
+
+<p>Result:</p>
+
+<table class="bidding">
+  <tr>
+    <td>1♣<sup>1</sup></td>
+    <td>(P)</td>
+    <td>1<span style="color: red">♦&#xfe0e;</span><sup>2</sup></td>
+    <td>(P)</td>
+  </tr>
+  <tr>
+    <td>1NT<sup>3</sup></td>
+    <td>(P)</td>
+    <td>?</td>
+  </tr>
+</table>
+<br/>
+<table>
+  <tr>
+    <td>&nbsp;<sup>1</sup></td> <td>Polish club</td>
+  </tr>
+  <tr>
+    <td>&nbsp;<sup>2</sup></td> <td>0-6 points</td>
+  </tr>
+  <tr>
+    <td>&nbsp;<sup>3</sup></td> <td>18-20, BAL</td>
+  </tr>
+</table>
+
+
+<h2><a id="bids"></a>List of bids</h2>
+
+<p>
+    The <strong><code>\bids</code></strong> tag is used to format the list of bids with explanations.
+    Each entry begins on a new line and is separated from the description by a pipe '|'.
+    Example:
+</p>
+<textarea readonly rows="10" cols="80">
+\bids {
+2♣ | ART, GF
+2♦ | Weak two in a major.
+   | There is no line-break here. Compare with 2♠.
+2♠ | multi-line (this line ends with two spaces = line-break)  
+   | description
+2N | shows either:
+   | - item 1
+   | - item 2
+}
+</textarea>
+<p>Result:</p>
+
+<table class="bids">
+    <tr>
+        <td>2♣</td>
+        <td>
+            <p style="margin-top: 0; margin-bottom: 0;">
+                ART, GF
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td>2<span style="color: red">♦&#xfe0e;</span></td>
+        <td>
+            <p style="margin-top: 0; margin-bottom: 0;">
+                Weak two in a major. There is no line-break here. Compare with 2♠.
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td>2♠</td>
+        <td>
+            <p style="margin-top: 0; margin-bottom: 0;">
+                multi-line (this line ends with two spaces = line-break)<br/>
+                description
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td>2N</td>
+        <td>
+            <p style="margin-top: 0; margin-bottom: 0;">
+                shows either:
+            </p>
+
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+<h2><a id="hand"></a>Hand</h2>
+
+<p>
+    The <strong><code>\hand</code></strong> tag is used to format the hand.
+    The tag can contain an optional second argument to set the hand title.
+    Example:
+</p>
+
+<textarea readonly rows="2" cols="80">
+\hand { JT754..AQ654.K87 }{Responder}
+</textarea>
+
+<p>Result:</p>
+
+<div class="w3-card w3-border" style="float: left; padding: 10px; background-color: #ddf1f1;">
+<b>Responder</b><br/>
+♠&nbsp;JT754<br/>
+<span style="color: red">♥&#xfe0e;</span>&nbsp;&ndash;<br/>
+<span style="color: red">♦&#xfe0e;</span>&nbsp;AQ654<br/>
+♣&nbsp;K87<br/>
+</div><p style="clear: both;"></p>
+
+
+<h2><a id="deal"></a>Deal</h2>
+
+<p>
+    The <strong><code>\deal</code></strong> tag is used to format the deal.
+    Cards are set in the same way as in the body of the <strong><code>\hand</code></strong> tag,
+    but with N/E/S/W prefix and colon. The hands are separated by a space.
+    Example:
+</p>
+
+<textarea readonly rows="2" cols="80">
+\deal{W:K87.AJT876.876.2 E:AQ96543.2.AK2.AK}
+</textarea>
+
+<p>Result:</p>
+
+<div class="w3-card w3-border" style="float: left; padding: 10px; margin-bottom: 10px; background-color: #ddf1f1;">
+<table class="bs-deal">
+  <tr>
+    <td>
+♠&nbsp;K87<br/>
+<span style="color: red">♥&#xfe0e;</span>&nbsp;AJT876<br/>
+<span style="color: red">♦&#xfe0e;</span>&nbsp;876<br/>
+♣&nbsp;2<br/>
+    </td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>
+♠&nbsp;AQ96543<br/>
+<span style="color: red">♥&#xfe0e;</span>&nbsp;2<br/>
+<span style="color: red">♦&#xfe0e;</span>&nbsp;AK2<br/>
+♣&nbsp;AK<br/>
+    </td>
+  </tr>
+</table>
+</div><p style="clear: both;"></p>
+
+<h1><a id="arg"></a>Argumentation</h1>
+
+<p>
+    The <strong><code>\arg</code></strong> tag is used to create a description
+    that is initially hidden but can be shown after clicking the corresponding button.
+    Useful for reasoning, argumentation, explanations, i.e. for auxiliary material.
+    Two arguments: <em>title</em> and <em>body</em> text.
+    Example:
+</p>
+
+<textarea readonly rows="7" cols="80">
+\arg{As one wise man said}{
+Doubling the opponents into game without having a sure set is always scary
+at IMPs. However, it is often the way to get a plus score and sometimes
+collect a good number. If they never make a doubled partial against you,
+you aren't doubling enough.
+}
+</textarea>
+
+<p>Result:</p>
+
+<div id="right1" class="w3-container w3-hide w3-show">
+  <button type="button" onclick="toggleDetails('info1', 'right1', 'down1')" class="w3-btn w3-round"><i class="fa fa-arrow-right"></i></button>
+    As one wise man said
+</div>
+<div id="down1" class="w3-container w3-hide">
+  <button type="button" onclick="toggleDetails('info1', 'right1', 'down1')" class="w3-btn w3-round"><i class="fa fa-arrow-down"></i></button>
+    As one wise man said
+</div>
+<div id="info1" class="w3-container w3-card w3-hide">
+<p>
+Doubling the opponents into game without having a sure set is always scary at IMPs.
+However, it is often the way to get a plus score and sometimes collect a good number.
+If they never make a doubled partial against you, you aren't doubling enough.
+</div>
+
+
+<h1><a id="markdown"></a>Markdown elements</h1>
+
+BS-format uses its own version of the Markdown language to mark up the text.
+
+<h2><a id="par"></a>Paragraphs and Line Breaks</h2>
+
+<p>
+    To create paragraphs, use a blank line to separate one or more lines of text.
+    Unless the paragraph is in a list, don’t indent paragraphs with spaces or tabs.
+</p><p>
+    When you want to insert a line break, you end a line with two spaces.
+    Alternatively, use the <code>&lt;br&gt;</code> HTML tag.
+</p>
+
+<h2><a id="emphasis"></a>Emphasis</h2>
+
+<ul>
+    <li>To italicize text, add one asterisk before and after a word or phrase.</li>
+    <li>To italicize text and make the background yellow, add one underscore before and after a word or phrase.</li>
+    <li>To bold text, add two asterisks or underscores before and after a word or phrase.</li>
+    <li>To strikethrough words, use two tilde symbols (~~) before and after the words.</li>
+</ul>
+<textarea readonly rows="6" cols="80">
+    *single asterisks*
+    _single underscores_
+    **double asterisks**
+    __double underscores__
+    ~~two tilde symbols~~
+</textarea>
+
+<p>will produce:</p>
+
+<em>single asterisks</em><br>
+
+<em class="yellow-bg">single underscores</em><br>
+
+<strong>double asterisks</strong><br>
+
+<strong>double underscores</strong><br>
+
+<s>two tilde symbols</s><br>
+
+<p>
+<em>Note: unusual treatment of single underscores.</em> 
+</p>
+
+<!-- 
+<p>
+To produce a literal asterisk or underscore at a position where it
+would otherwise be used as an emphasis delimiter, you can backslash
+escape it:
+</p>
+<textarea readonly rows="2" cols="80">
+    \*this text is surrounded by literal asterisks\*
+</textarea>
+-->
+
+
+
+<h2><a id="headers"></a>Headers</h2>
+
+<p>
+Headers use 1-6 hash characters at the start of the line,
+corresponding to header levels 1-6. For example:
+</p>
+<pre>
+    # Heading level 1
+
+    ## Heading level 2
+
+    ###### Heading level 6
+</pre>
+
+<p>
+    The header can contain a label for links
+    <strong><code>\ref{id}</code></strong>.
+</p>
+
+<pre>
+# The 2NT opening bid \ref{2NT}
+</pre>
+
+<p>
+    Anywhere in the document, you can refer to this section by inserting an identifier and
+    arbitrary text in square brackets <strong><code>[id][text&nbsp;to&nbsp;display]</code></strong>.
+    If the text is omitted, the identifier will be used.
+    Example:</p>
+<pre>
+See sections [2NT][The 2NT Opening] and [3NT][].
+</pre>
+	
+<h2><a id="quoting"></a>Blockquotes</h2>
+
+<p>
+    To create a blockquote, put a &gt; before every line.
+    Blockquotes can contain multiple paragraphs.
+</p>
+
+<pre>
+> This is a blockquote with two paragraphs.
+> Bridge is a member of the family of trick-taking games and is a development of Whist,
+> which had become the dominant such game and enjoyed a loyal following for centuries.
+> 
+> Bridge departed from whist with the creation of "Biritch" in the 19th century,
+> and evolved through the late 19th and early 20th centuries to form the present game.
+> The first rule book for bridge, dated 1886, is "Biritch, or Russian Whist" written by John Collinson,
+> an English financier working in Ottoman Constantinople.
+</pre>
+<p>The rendered output looks like this:</p>
+<blockquote class="w3-panel w3-leftbar w3-light-grey"><p>
+    This is a blockquote with two paragraphs.
+    Bridge is a member of the family of trick-taking games and is a development of Whist,
+    which had become the dominant such game and enjoyed a loyal following for centuries.
+</p><p>
+    Bridge departed from whist with the creation of "Biritch" in the 19th century,
+    and evolved through the late 19th and early 20th centuries to form the present game.
+    The first rule book for bridge, dated 1886, is "Biritch, or Russian Whist" written by John Collinson,
+    an English financier working in Ottoman Constantinople.</p>
+</blockquote>
+
+<em>Note: Blockquotes can not be nested.</em>
+
+<h2><a id="lists"></a>Lists</h2>
+
+You can organize items into ordered and unordered lists.
+
+<h3>Unordered Lists</h3>
+
+<p>
+    To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items.
+    Indent one or more items to create a nested list.
+</p>
+
+<pre>
+- First item \c
+- Second item \d
+- Third item \h
+    - Indented item
+    - Indented item
+- Fourth item \s
+</pre>
+
+<p>Result:</p>
+<ul>
+    <li>First item ♣</li>
+    <li>Second item <span style="color: red">♦&#xfe0e;</span></li>
+    <li>
+
+        <p style="margin-top: 0; margin-bottom: 0;">
+            Third item <span style="color: red">♥&#xfe0e;</span>
+        </p>
+
+        <ul>
+            <li>Indented item</li>
+            <li>Indented item</li>
+
+        </ul>
+    </li>
+    <li>Fourth item ♠</li>
+
+</ul>
+
+<h3>Ordered Lists</h3>
+
+<p>
+    To create an ordered list, add line items with numbers followed by periods.
+    The numbers don’t have to be in numerical order.
+</p>
+
+<pre>
+1.  Mollo
+1.  Reese
+1.  Kelsey
+</pre>
+
+<p>Result:</p>
+
+<ol>
+<li>Mollo</li>
+<li>Reese</li>
+<li>Kelsey</li>
+</ol>
+
+<p>
+List items may consist of multiple paragraphs. Each subsequent
+paragraph in a list item must be indented by either 4 spaces
+or one tab:
+</p>
+<textarea readonly rows="10" cols="80">
+1.  This is a list item with two paragraphs. Bridge is a game of skill
+    played with randomly dealt cards, which makes it also a game of chance,
+    or more exactly, a tactical game with inbuilt randomness,
+    imperfect knowledge and restricted communication.
+
+    Duplicate bridge is played in clubs and tournaments,
+    which can gather as many as several hundred players.
+
+2.  In 1935, the first officially recognized world championship was held.
+</textarea>
+
+
+<h2><a id="code"></a>Code Blocks</h2>
+
+<p>
+    To create pre-formatted code blocks, indent every line of the block by at least four spaces or one tab.
+    Rather than forming normal paragraphs, the lines of a code block are interpreted literally.
+    One level of indentation - 4 spaces or 1 tab - is removed from each line of the code block.
+    A code block continues until it reaches a line that is not indented (or the end of the article).
+    For example, given this input:
+</p>
+<textarea readonly rows="4" cols="80">
+    tell application "Foo"
+        beep
+    end tell
+</textarea>
+
+<p>will turn into:</p>
+
+<pre>
+tell application "Foo"
+    beep
+end tell
+</pre>
+
+<h2><a id="hrule"></a>Horizontal Rules</h2>
+
+<p>
+    To create a horizontal rule, use three or more asterisks (***), dashes (---),
+    or underscores (___) on a line by themselves.
+</p>
+<textarea readonly rows="6" cols="80">
+    ***
+
+    -----
+    
+    _____
+</textarea>
+<p>
+    The rendered output of all three looks identical:
+</p>
+<hr style="border-style: solid; border-width: 2px;"/>
+
+<h2><a id="auto_link"></a>Links</h2>
+
+<p>
+    To create a link, surround the URL with angle brackets:
+</p>
+
+<textarea readonly rows="4" cols="80">
+    My favorite sites are:
+    <http://www.bridgebase.com/> and
+	<https://www.markdownguide.org>
+</textarea>
+    
+<p>The rendered output looks like this:</p>
+My favorite sites are:
+    <a href="http://www.bridgebase.com/" target="_blanc">http://www.bridgebase.com/</a> and
+    <a href="https://www.markdownguide.org" target="_blanc">https://www.markdownguide.org</a>
+	
+
+<h2><a id="tables"></a>Tables</h2>
+
+<p>
+    The optional first line contains the headers, separated by pipes (|).<br>
+    The second line separates the headers from the cells,
+    and must contain three or more dashes (---) to create columns,
+    and pipes (|) to separate each column.<br>
+    The third, and any following lines, contain the cell values separated by pipes (|).
+    You can’t have cells separated over many lines,
+    they must be kept to single lines, but they can be very long.
+    You can also include HTML &lt;br&gt; tags to force newlines if needed.
+    You can optionally add pipes on either end of the table.
+</p>
+
+<p>The table without headers</p> 
+
+<textarea readonly rows="5" cols="150">
+| ---      |  ------  |----------|
+| cell 1   | cell 2   | cell 3   |
+| cell 4 | cell 5 is longer | cell 6<br> is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
+| cell 7   |          | cell 9   |
+</textarea>
+
+<p>will produce</p>
+<table class="bs-table">
+    <tr>
+        <td>cell 1</td>   <td>cell 2</td>   <td>cell 3</td>
+    </tr>
+
+    <tr>
+        <td>cell 4</td>   <td>cell 5 is longer</td>   <td>cell 6<br/> is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size.</td>
+    </tr>
+
+    <tr>
+        <td>cell 7</td>   <td></td>   <td>cell 9</td>
+    </tr>
+
+</table>
+
+<p>The table with headers</p>
+
+<textarea readonly rows="6" cols="80">
+| header 1 | header 2 | header 3 |
+| ---      |  ------  |----------|
+| cell 1   | cell 2   | cell 3   |
+| cell 4 | cell 5 | cell 6
+| cell 7   |          | cell 9   |
+</textarea>
+
+<p>will produce</p>
+<table class="bs-table">
+    <tr>
+        <th>header 1</th>   <th>header 2</th>   <th>header 3</th>
+    </tr>
+
+    <tr>
+        <td>cell 1</td>   <td>cell 2</td>   <td>cell 3</td>
+    </tr>
+
+    <tr>
+        <td>cell 4</td>   <td>cell 5</td>   <td>cell 6</td>
+    </tr>
+
+    <tr>
+        <td>cell 7</td>   <td></td>   <td>cell 9</td>
+    </tr>
+
+</table>
+
+<p>
+    You can align text in the columns to the left, right, or center by adding a colon (:)
+    to the left, right, or on both side of the hyphens within the header row.
+    This affects every cell in the column.
+</p>
+
+<textarea readonly rows="5" cols="80">
+| Left Aligned | Centered | Right Aligned | Left Aligned | Centered | Right Aligned |
+| :---         | :---:    | ---:          | :----------- | :------: | ------------: |
+| Cell 1       | Cell 2   | Cell 3        | Cell 4       | Cell 5   | Cell 6        |
+| Cell 7       | Cell 8   | Cell 9        | Cell 10      | Cell 11  | Cell 12       |
+</textarea>
+
+<p>will produce</p>
+<table class="bs-table">
+    <tr>
+        <th class="bs-table-align-left">Left Aligned</th>   <th class="bs-table-align-center">Centered</th>   <th class="bs-table-align-right">Right Aligned</th>   <th class="bs-table-align-left">Left Aligned</th>   <th class="bs-table-align-center">Centered</th>   <th class="bs-table-align-right">Right Aligned</th>
+    </tr>
+
+    <tr>
+        <td class="bs-table-align-left">Cell 1</td>   <td class="bs-table-align-center">Cell 2</td>   <td class="bs-table-align-right">Cell 3</td>   <td class="bs-table-align-left">Cell 4</td>   <td class="bs-table-align-center">Cell 5</td>   <td class="bs-table-align-right">Cell 6</td>
+    </tr>
+
+    <tr>
+        <td class="bs-table-align-left">Cell 7</td>   <td class="bs-table-align-center">Cell 8</td>   <td class="bs-table-align-right">Cell 9</td>   <td class="bs-table-align-left">Cell 10</td>   <td class="bs-table-align-center">Cell 11</td>   <td class="bs-table-align-right">Cell 12</td>
+    </tr>
+
+</table>

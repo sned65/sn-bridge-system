@@ -1,0 +1,403 @@
+# Бриджевые элементы
+
+##Масти ##
+
+Для мастей можно использовать либо символы (♣, ♦, ♥, ♠), либо \c, \d, \h, \s.
+
+
+##Торговля
+
+Пример:
+
+\bdn {
+1♣ (P) 1♦ (P)
+1NT (P) ?
+}
+
+К заявкам можно добавлять пояснения, которые будут воспроизведены сразу после торговли.
+
+\bdn{
+1♣ \1{От дублета} (P) 1♦\2{Негатив} (P)
+1NT\3{18-20} (P) ?
+}
+
+##Список заявок
+
+Пример:
+\bids {
+1\c, 1\d | 12-21, 3+, при минорах 3-3 – всегда 1♣.
+         |При минорах 4-4 – на усмотрение
+1♥, 1♠ | 11-21, 5+
+1NT    | 15-17, BAL
+2♣     | 22+, AF
+**2♦** | Multi:
+       | - a weak two bid in backslashed \h or \s
+       | - 22-24, BAL
+3NT    | *курсив gambling*
+4NT    | Blackwood or  
+       | "Blackwood" (two lines)
+}
+
+
+## Hand
+
+Тег *hand* используется для форматирования руки.
+Пример без заголовка:
+
+\hand{JT754..AQ654.K87}
+
+Пример с заголовком:
+
+\hand { JT754..AQ654.K87 }{Responder}
+
+
+
+## Deal
+
+Тег *deal* используется для форматирования сдачи.
+Примеры:
+
+All hands
+
+\deal{
+  W:K87.AJT876.876.2 E:AQ96543.2.AK2.AK N:JT.Q3.QJ54.J6543 S:2.K954.T93.QT987
+}
+
+EW
+
+\deal{W:K87.AJT876.876.2 E:AQ96543.2.AK2.AK}
+
+NS
+
+\deal {
+  N:K87.AJT876.876.2
+  S:AQ96543.2.AK2.AK
+}
+
+N-W
+
+\deal { W:K87.AJT876.876.2 N:AQ96543.2.AK2.AK }
+
+E-S (looks similar to N-W)
+
+\deal{S:K87.AJT876.876.2 E:AQ96543.2.AK2.AK}
+
+
+## Аргументация
+
+\arg{As one wise man said}{
+Doubling the opponents into game without having a sure set is always scary at IMPs.
+However, it is often the way to get a plus score and sometimes collect a good number.
+If they never make a doubled partial against you, you aren't doubling enough.
+}
+
+
+ \arg {Arg with bidding}{
+К заявкам можно добавлять пояснения, которые будут воспроизведены сразу после торговли.
+
+\bdn{
+1♣ \1{2+} (P) 1♦\2{Негатив} (P)
+1NT\3{18-20} (P) ?
+}
+}
+
+
+ \arg{Arg with list}{
+
+- Improve slam bidding
+- Transfer answers on 1♣ opening. 
+- Muppet Stayman
+}
+
+
+#Элементы языка разметки Markdown
+
+##Paragraphs and Line Breaks
+
+First line with two spaces after.  
+And the next line.
+
+First line with the HTML tag after.<br>
+And the next line.
+
+## Текст с выделением
+
+Звёздочки (`*`) и знаки подчёркивания (`_`) используются для выделения текста.
+Пример (line-break ):  
+*выделение звёздочкой (курсив)*  
+_для обсуждения = курсив и выделение жёлтым_  
+**сильное выделение звёздочками (полужирное начертание)**  
+__сильное выделение подчёркиваниями (полужирное начертание)__<br>
+~~strikethrough words~~
+
+Emphasis can be used in the m*iddl*e of a word.
+Emphasis can be used in the m_iddl_e of a word.
+Emphasis can be used in the m**iddl**e of a word.
+Emphasis can be used in the m__iddl__e of a word.
+Emphasis can be used in the m~~iddl~~e of a word.
+
+*BS-file line1;
+BS-file line2.*
+
+But if you surround an `*` or `_` with spaces, it'll be treated as a
+literal asterisk or underscore. * Нет выделения *
+
+\*this text is surrounded by literal asterisks\*
+
+## Заголовки (есть метка) \ref{Titles}
+
+Создание заголовков производится путём помещения знака решетки
+перед текстом заголовка. Количество знаков «#» соответствует уровню заголовка от 1 до 6.
+
+### Заголовок третьего уровня с мастями \c, \d, \h, \s
+
+#### Заголовок четвёртого уровня с мастями \c, \d, \h, \s и «закрытием» ####
+
+##### Заголовок пятого уровня
+
+###### Заголовок шестого уровня
+
+Заголовок может содержать метку для ссылок.
+В любом месте документа можно сослаться на данный раздел, вставив идентификатор и
+произвольный текст в квадратных скобках.
+Если текст пропущен, то будет использован идентификатор.
+Пример:
+
+См. разделы [others][Прочее], а также
+[Titles][Заголовки] или [Titles][].
+
+	
+##Цитаты
+
+Поместите символ > перед каждой строкой из цитаты.
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. \c, \d, \h, \s Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+
+##Списки
+
+###Маркированные списки
+
+В неупорядоченных списках в качестве маркеров списка используются звездочки:
+
+*   Красный \h
+*   Зелёный (2 пробела в конце = перенос)  
+    \d
+*   Синий \c
+	
+плюсы:
+
++   Красный
++   Зелёный
++   Синий
+
+и дефисы:
+
+-   Красный
+-   Зелёный
+-   Синий
+
+Список с выделением:
+* Все заявки ОТВ на 3-ем уровне в масти не выше своего мажора – NF.  
+* **Конкуренция**: При вмешательстве ниже 2NT Wolff signoff остаётся в силе, если 2NT по-прежнему показывает 18-19 в равномере.
+  Пример: 1♣ - (1♦) - 1♠ - 2NT - 3♣ - 3♦ - 3♠ (signoff).  
+* **Конкуренция**: При вмешательстве на 2NT (контрой или выше) Wolff signoff выключается.  
+
+
+###Нумерованные списки
+
+В упорядоченных списках используются цифры, за которыми следуют точка:
+
+1.  Mollo
+2.  Reese  
+    Terense
+3.  Kelsey
+
+List markers typically start at the left margin, but may be indented by
+up to three spaces. List markers must be followed by one or more spaces
+or a tab.
+
+To make lists look nice, you can wrap items with hanging indents:
+
+*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing.
+
+### Complex lists
+
+List items may consist of multiple paragraphs. Each subsequent
+paragraph in a list item must be indented by either 4 spaces
+or one tab:
+
+1.  This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus.
+
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit.
+
+2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+
+To put a blockquote within a list item, the blockquote's `>`
+delimiters need to be indented:
+
+*   A list item with a blockquote:
+    > This is a blockquote
+    > inside a list item.
+* Пункт 2
+
+To put a code block within a list item, the code block needs
+to be indented *twice* -- 8 spaces or two tabs:
+
+*   A list item with a code block:
+        <code goes here>
+
+It's worth noting that it's possible to trigger an ordered list by
+accident, by writing something like this:
+    1986. What a great season.
+
+To avoid this, you can backslash-escape the period:
+
+1986\. What a great season.
+
+**Nested lists**:
+
+- Level 1
+    - Уровень 1.1
+        1. \c
+            1. Level 4
+            1. Level 4
+            1. Level 4
+        2. \d
+        3. \h
+        4. \s
+    - Уровень 1.2
+    - Уровень 1.3
+- Level 2
+- Level 3
+
+##Code Blocks
+
+Pre-formatted code blocks are used for writing about programming or markup source code.
+Rather than forming normal paragraphs, the lines of a code block are interpreted literally.
+
+To produce a code block, simply indent every line of the block by at least 4 spaces or 1 tab.
+For example, given this input:
+
+This is a normal paragraph.
+
+    This is a code block with ampersand &.
+	    This is an indented (4 spaces) code block with <tag>.
+	* Starts with asterisk.
+	Содержит **"выделение"**
+
+One level of indentation — 4 spaces or 1 tab — is removed from each line of the code block.
+Regular Markdown syntax is not processed within code blocks. E.g., asterisks are just literal asterisks within a code block.
+
+## Горизонтальные линии
+
+5 горизонтальных линий:
+
+* * *
+
+***
+
+****
+
+- - -
+
+---------------------------------------
+
+
+##Ссылки
+
+Для создания ссылки на внешний URL-адрес просто окружите URL угловыми скобками.
+
+<http://www.bridgebase.com/>, <http://www.bridgesport.ru/>
+
+__Bold reference: <http://www.qldbridge.com.au/bulletin/qba/QBASep09.pdf>__
+
+One more __bold__ reference with __underscores: <http://www.java2s.com/Tutorial/Java/0020__Language/Catalog0020__Language.htm>__
+
+##Tables
+###Tables without header
+
+To add a table, use three or more hyphens (---) to create each column's header, and use pipes (|) to separate each column.
+You can optionally add pipes on either end of the table.
+
+Пример:
+
+---|---
+1\c, 1\d | 12-21, 3+, отрицает 5-ку в мажоре, при минорах 3-3 – всегда 1♣, при минорах 4-4 – на усмотрение.  
+1♥, 1♠ | 11-21, 5+
+**2♥, 2♠** | **Bold: 8-10 HCP, 6-ка**
+
+You can align text in the columns to the left, right, or center by adding a colon (:)
+to the left, right, or on both side of the hyphens within the header row.
+
+|---:|:---:|
+1\c, 1\d | 12-21, 3+, отрицает 5-ку в мажоре, при минорах 3-3 – всегда 1♣, при минорах 4-4 – на усмотрение.  
+1♥, 1♠ | 11-21, 5+
+**2♥, 2♠** | **Bold Bold**: 8-10 HCP, 6-ка
+
+### Tables with header
+
+| header 1 | header 2 | header 3 |
+| ---      |  ------  |----------|
+| cell 1   | cell 2   | cell 3   |
+| cell 4 | cell 5 is longer | cell 6<br> is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
+| cell 7   |          | cell 9   |
+
+You can choose the alignment of text in columns by adding colons (:) to the sides of the “dash” lines in the second row.
+This affects every cell in the column: 
+
+| Left Aligned | Centered | Right Aligned | Left Aligned | Centered | Right Aligned |
+| :---         | :---:    | ---:          | :----------- | :------: | ------------: |
+| Cell 1       | Cell 2   | Cell 3        | Cell 4       | Cell 5   | Cell 6        |
+| Cell 7       | Cell 8   | Cell 9        | Cell 10      | Cell 11  | Cell 12       |
+
+
+# Прочее \ref{others}
+
+В торговле типа 1m – (P) – 1M – (1/2X) (противник вступил в позиции sandwich ниже 2M) 
+
+\bids{
+2♠/2NT | GI (или SI) и просьба показать масть, в которой пропадёт наибольшее количество очков против синглета.
+       |  Если таких мастей две и выбрать трудно, то показывается младшая.
+		| Ответ даётся только, если ОТВ не уверен, надо ли принимать инвит.
+		| Иначе он сразу заявляет 3M, или 4M, или 3NT (пас или коррекция).
+3♥/♠ | либо инвит на слабом козыре, либо блок на сильном.
+3X | SI. Обычно, 5-5. Иногда 5-4, когда в остальных мастях интересуют только тузы.
+}
+
+При других натуральных мастевых интервенциях: контра – негативная до ∞ и, начиная с 3-го уровня, GF.
+
+Long bids:
+\bids{
+реконтра на негативную контру от RHO | 10+ и =2 в масти партнёра, если все масти были показаны, или Snapdragon, если есть незаявленная масть
+на новую масть без прыжка ниже 2M | Либо Snapdragon: 4-я масть и tolerance (=2) к масти партнера, либо хорошие 7‑9 HCP и фит, обычно, 3-карточный. Snapdragon doubles are used only when your partner can bid the unbid suit at the one- or two-level. При наличии контры, показавшей фит, заявка 2M – фит и слабая рука.
+на подъём масти открытия | ответная (до ∞): две оставшиеся масти
+на натуральное 1NT | Ответная
+на кюбид RHO | аналог простого подъёма ("Stolen Bid").
+}
+
+* Кюбид в нижней/верхней масти означает то, что написано, а не LHO/RHO.
+* Если LHO обозначил масть от триплета, то ближайший кюбид в масть RHO на первом и втором уровне – натурально.
+
+Blockquote 1:
+> “Be aware that doubling 1NT for penalty is not a good idea. If they bid to 1NT, they tend to have their values.
+> If you have a good hand you will find that it is your partner who is bidding a lot, not the opponents.” (Lawrence, CBO)
+
+Blockquote 2:
+> “Be aware that doubling 1NT for penalty is not a good idea. If they bid to 1NT, they tend to have their values.
+If you have a good hand you will find that it is your partner who is bidding a lot, not the opponents.” (Lawrence, CBO)
+
+
