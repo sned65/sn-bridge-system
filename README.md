@@ -1,7 +1,10 @@
 # Introduction
 
 The program is designed to facilitate the description
-of bridge bidding systems. The syntax is based on the Markdown
+of bridge bidding systems.
+You can write a system in your favorite editor using an easy to read and write plain text format,
+and the tool converts it to HTML or PDF.
+The formatting syntax (`bs-syntax`) is based on the Markdown
 markup language, which is enriched with bridge-specific elements.
 
 ## Fragment of bidding system description
