@@ -4,46 +4,7 @@ The program is designed to facilitate the description
 of bridge bidding systems. The syntax is based on the Markdown
 markup language, which is enriched with bridge-specific elements.
 
-# Installation
-
-## Prerequisites
-
-Make sure you have the Java 11 JDK installed.
-To check, open the terminal and type:
-```
-java -version
-```
-If you don't have it installed, download Java from, for example,
-<a href="https://adoptopenjdk.net/">AdoptOpenJDK</a>.
-
-## Run the application
-
-Download and unzip the `bridge-system-<version>.zip` file on the target folder.
-Then, run the script in the bin directory.
-The name of the script is `bridge-system`, and it comes in two versions,
-a bash shell script, and a Windows `.bat` script.
-
-To create both HTML and PDF from the description in `MySystem.bs`:
-```
-bridge-system MySystem.bs --html --pdf
-```
-
-To get all available options:
-```
-bridge-system --help
-```
-
-# BS-formatting
-
-To get a complete description of the bs-syntax as html:
-```
-bridge-system --help-bs-syntax
-```
-
-Alternatively, click on the question mark at the top-right corner of
-the html-page produced by `bridge-system MySystem.bs --html`.
-
-## Fragment of bs-file
+## Fragment of bidding system description
 
 ```
 # Openings
@@ -83,3 +44,45 @@ responder should bid the major first.*
 - Avoiding bad 3NT contracts.
 - Getting to good slams.
 ```
+
+# Installation
+
+## Prerequisites
+
+Make sure you have the Java 11 JDK installed.
+To check, open the terminal and type:
+```
+java -version
+```
+If you don't have it installed, download Java from, for example,
+<a href="https://adoptopenjdk.net/">AdoptOpenJDK</a>.
+
+## Run the application
+
+Download (`https://github.com/sned65/sn-bridge-system/releases/download/v0.9.0-alpha/bridge-system-0.9.0.zip`)
+and unzip the `bridge-system-<version>.zip` file on the target folder.
+Then, run the script in the bin directory.
+The name of the script is `bridge-system`, and it comes in two versions,
+a bash shell script, and a Windows `.bat` script.
+
+The `examples` directory contains file(s) ending in `.bs` with example(s). 
+
+To create both HTML and PDF from the description in `examples/MySystem.bs`:
+```
+bridge-system MySystem.bs --html --pdf
+```
+
+To get all available options:
+```
+bridge-system --help
+```
+
+# BS-formatting
+
+To get a complete description of the bs-syntax as html:
+```
+bridge-system --help-bs-syntax
+```
+
+Alternatively, click on the question mark at the top-right corner of
+the html-page produced by `bridge-system MySystem.bs --html`.
