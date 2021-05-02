@@ -89,3 +89,25 @@ bridge-system --help-bs-syntax
 
 Alternatively, click on the question mark at the top-right corner of
 the html-page produced by `bridge-system MySystem.bs --html`.
+
+# Troubleshooting
+
+## Issue with Cyrillic fonts on Linux
+
+If you open the generated PDF-file on Linux, sometimes you will notice that 
+the all Cyrillic letters are replaced with `#`.
+This is because Times New Roman, Arial and other such fonts are
+owned by Microsoft and are not open source.
+Many Linux distributions don’t provide proprietary software by default
+to avoid licensing issue.
+You can install new fonts by downloading them on your own.
+
+Installing Microsoft fonts on Ubuntu-based Linux distributions:
+1. Microsoft fonts are available in the multiverse repositories, so make sure to enable them first:<br>
+   `sudo add-apt-repository multiverse`
+2. Update your Ubuntu repository cache and install the Microsoft fonts:<br>
+   `sudo apt update && sudo apt install ttf-mscorefonts-installer`
+3. When the installation is done, update the font cache:<br>
+   `sudo fc-cache -f -v`
+
+More details: <https://itsfoss.com/install-microsoft-fonts-ubuntu/>
