@@ -8,14 +8,15 @@ object ArgHtml {
         val rightBtnId = s"right${ai.index}"
         val downBtnId = s"down${ai.index}"
         val desc = HtmlRenderer.elemsToString(ai.arg.elems)
+        val title = InlineHtml.render(ai.arg.title)
 
         s"""<div id="$rightBtnId" class="w3-container w3-hide w3-show">
            |  <button type="button" onclick="toggleDetails('$infoId', '$rightBtnId', '$downBtnId')" class="w3-btn w3-round"><i class="fa fa-arrow-right"></i></button>
-           |  ${ai.arg.title}
+           |  $title
            |</div>
            |<div id="$downBtnId" class="w3-container w3-hide">
            |  <button type="button" onclick="toggleDetails('$infoId', '$rightBtnId', '$downBtnId')" class="w3-btn w3-round"><i class="fa fa-arrow-down"></i></button>
-           |  ${ai.arg.title}
+           |  $title
            |</div>
            |<div id="$infoId" class="w3-container w3-card w3-hide">
            |$desc
