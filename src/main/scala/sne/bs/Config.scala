@@ -75,10 +75,12 @@ object Config {
 
     private val parser = {
         import builder._
+        val nl = sys.props("line.separator")
         OParser.sequence(
             programName(specificationTitle),
             head(specificationTitle, specificationVersion),
-            help("help").text("prints this usage text"),
+            help('h',"help").text("print this usage text"),
+            version('v', "version").text("print product version and exit"),
             opt[Unit](HELP_BS_SYNTAX)
               .text("complete description of the bs-syntax"),
             arg[File]("<bs-file>")
@@ -88,12 +90,9 @@ object Config {
                   if (f.canRead) success
                   else failure(s"Can not read bs-file ${f.getPath}")
               },
-            opt[String]('t', "title")
-              .action((t, c) => c.copy(titleOpt = Some(t)))
-              .text("title. The default is bs-file name."),
-            opt[String]('s', "subtitle")
-              .action((t, c) => c.copy(subtitleOpt = Some(t)))
-              .text("subtitle. The default is current date."),
+            opt[Unit]("html")
+              .action((_, c) => c.copy(htmlFlag = true))
+              .text("generate html-file"),
             opt[Unit]("pdf")
               .action((_, c) => c.copy(pdfFlag = true))
               .text("generate pdf-file"),
@@ -106,6 +105,7 @@ object Config {
               .action((x, c) =>
                   c.copy(pdfConfig = c.pdfConfig.copy(pdfFontDir = Some(x)))
               )
+              .valueName("<path>")
               .text("register all the fonts found in a directory and all of its sub directories"),
             // todo
             opt[String]("pdf-params")
@@ -114,9 +114,6 @@ object Config {
               )
               .hidden()
               .text("file with fine-tuning parameters for generating a pdf file"),
-            opt[Unit]("html")
-              .action((_, c) => c.copy(htmlFlag = true))
-              .text("generate html-file"),
             opt[Unit]("fo")
               .action((_, c) => c.copy(foFlag = true))
               .hidden()
@@ -127,6 +124,12 @@ object Config {
               )
               .hidden()
               .text("generate fo-file without \\arg{} blocks"),
+            opt[String]('t', "title")
+              .action((t, c) => c.copy(titleOpt = Some(t)))
+              .text("title. The default is bs-file name."),
+            opt[String]('s', "subtitle")
+              .action((t, c) => c.copy(subtitleOpt = Some(t)))
+              .text("subtitle. The default is current date."),
             opt[Int]("verbose")
               .action((x, c) => c.copy(pdfConfig = c.pdfConfig.copy(verbose = x)))
               .action((x, c) => c.copy(verbose = x))
@@ -134,7 +137,9 @@ object Config {
               .text("verbosity level"),
             opt[String]('o', "out")
               .action((x, c) => c.copy(outDir = Path(x, base = os.pwd)))
+              .valueName("<path>")
               .text("output directory. Default is current working directory."),
+            note(s"${nl}Example:$nl  $specificationTitle MySystem.bs --html --pdf")
         )
     }
 
