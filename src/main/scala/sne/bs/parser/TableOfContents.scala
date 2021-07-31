@@ -3,8 +3,8 @@ package sne.bs.parser
 import sne.bs.BsException
 
 case class TOCLabel(label: Seq[Int]) {
-    val labelString = label.mkString(".")
-    val level = label.length
+    val labelString: String = label.mkString(".")
+    val level: Int = label.length
 
     def hrefLabel: String = label.map(h => f"$h%03d").mkString
 
@@ -45,9 +45,14 @@ object TOCEntry {
 class TableOfContents(val entries: Vector[TOCEntry]) {
 
     def add(level: Int, title: String, userRef: Option[String]): TableOfContents = {
+        if (!checkUserRef(userRef)) throw BsException(s"Reference ID `${userRef.get}` previously used; ID values must be unique within a document!")
         val lastLabel = entries.lastOption.map(_.label).getOrElse(TOCLabel(Seq.empty))
         val e = TOCEntry(lastLabel.next(level), title, userRef)
         new TableOfContents(entries :+ e)
+    }
+    
+    private def checkUserRef(userRef: Option[String]): Boolean = {
+        entriesWithUserRef.forall(_.uRef != userRef)
     }
 
     def apply(index: Int): TOCEntry = entries(index)

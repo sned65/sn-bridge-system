@@ -64,7 +64,7 @@ case class BsPar(value: Seq[BsString]) extends BsElem {
         value.map(_.value).map { s =>
             if (s.endsWith("  ")) s + "<br>"
             else s
-        }.mkString
+        }.mkString(" ")
     }
 }
 
@@ -85,7 +85,7 @@ case class BsHdr(level: Int, line: String) extends BsElem {
 
 object BsHdr {
 
-    private val hdrWithRef = raw"""(.+?)\s*\\ref\s*\{\s*(\w+)\s*\}\s*""".r
+    private val hdrWithRef = raw"""(.+?)\s*\\ref\s*\{\s*(\w+)\s*}\s*""".r
     private val trailingHashes = raw"""(.+?)\s*#*""".r
 
     def dropTrailingHashes(s: String): String = {

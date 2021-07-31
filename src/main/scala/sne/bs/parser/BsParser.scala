@@ -20,9 +20,17 @@ object BsParser {
     def apply(bsFile: File): BsParser = {
         val src = io.Source.fromFile(bsFile, "UTF-8")
         try {
-            val lines = src.getLines().toVector
+            val allLines = src.getLines().toVector
             //println(s"${lines.zipWithIndex.map(x => "BsParser. " + (x._2+1) +" |"+x._1+"|").mkString("\n")}")
             
+            var accept = true
+            val allLinesMarked = allLines.collect {
+                case ln if ln == "\\ignore" => accept = false; (ln, false)
+                case ln if ln == "\\eoi" => accept = true; (ln, false)
+                case ln => (ln, accept)
+            }
+            val lines = allLinesMarked.filter(_._2).map(_._1)
+
             // Content of input file with any of OS-specific line separators (\r\n, \r, or \n)
             // replaced with UNIX line separator (\n)
             val text = lines.mkString("\n") + "\n"
